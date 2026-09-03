@@ -93,3 +93,12 @@ signal-port-description-power-charge-level4 = This port is invoked when the batt
 
 signal-port-name-power-charge-level5 = 100%
 signal-port-description-power-charge-level5 = This port is invoked when the battery is full.
+
+signal-port-name-airlock-state-a = At side A
+signal-port-description-airlock-state-a = Held HIGH while the airlock is idle with its chamber at side A's atmosphere.
+
+signal-port-name-airlock-state-b = At side B
+signal-port-description-airlock-state-b = Held HIGH while the airlock is idle with its chamber at side B's atmosphere.
+
+signal-port-name-airlock-cycling = Cycling
+signal-port-description-airlock-cycling = Held HIGH for the duration of a cycle.
