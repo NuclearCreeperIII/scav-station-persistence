@@ -5,6 +5,7 @@
   rumors:
     - BountyBasicGeneral
     - BountyBasicScience
+    - ReceiveMailFriendly
   color: Red
   levels:
     Ivenmoth2: 150
