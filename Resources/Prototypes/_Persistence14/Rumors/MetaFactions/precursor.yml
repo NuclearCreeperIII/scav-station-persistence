@@ -3,9 +3,8 @@
   name: Syndicate
   description: "The Syndicate controls the Precursor Universe."
   rumors:
-    - DrinkBasicEvil
-    - EatBasicEvil
-    - PrayBasicEvil
+    - BountyBasicCriminal
+    - BountyBasicWeapon
     - ReceiveMailEvil
   color: Purple
   levels:
