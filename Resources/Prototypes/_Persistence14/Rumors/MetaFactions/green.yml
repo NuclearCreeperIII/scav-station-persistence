@@ -3,9 +3,8 @@
   name: Nanotrasen
   description: "Nanotrasen, the largest megacorporation in the galaxy."
   rumors:
-    - DrinkBasicFriendly
-    - EatBasicFriendly
-    - PrayBasicFriendly
+    - BountyBasicGeneral
+    - BountyBasicScience
     - ReceiveMailFriendly
   color: DarkBlue
   levels:
