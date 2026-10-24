@@ -1,6 +1,6 @@
 - type: metaFaction
   id: Precursor
-  name: Syndicate
+  name: The Syndicate
   description: "The Syndicate controls the Precursor Universe."
   rumors:
     - BountyBasicCriminal
