@@ -1,12 +1,12 @@
 - type: metaFaction
   id: Precursor
   name: The Syndicate
-  description: "The Syndicate controls the Precursor Universe."
+  description: "The Syndicate, a loose cooperative of smaller corporations dedicated to opposing Nanotrasen by any means necessary."
   rumors:
     - BountyBasicCriminal
     - BountyBasicWeapon
     - ReceiveMailEvil
-  color: Purple
+  color: DarkRed
   levels:
     Precursor2: 150
     Precursor3: 500
@@ -17,9 +17,9 @@
   id: Precursor2
   name: Associate
   rumorRewards:
-    - PrecursorUpgradeModule
+    # - PrecursorUpgradeModule
     - TradeGood
-    - PrecursorCodexFragment
+    # - PrecursorCodexFragment
     - PrecursorPJs
     - PrecursorMerchCrate
   rewardsToOffer: 2
@@ -28,9 +28,9 @@
   id: Precursor3
   name: Agent
   rumorRewards:
-    - PrecursorUpgradeModule
+    # - PrecursorUpgradeModule
     - TradeGood
-    - PrecursorCodexFragment
+    # - PrecursorCodexFragment
     - Microwave
     - ChemKit
     - HyperzinePen
@@ -52,9 +52,9 @@
   id: Precursor4
   name: Master Agent
   rumorRewards:
-    - PrecursorUpgradeModule
+    # - PrecursorUpgradeModule
     - TradeGood
-    - PrecursorCodexFragment
+    # - PrecursorCodexFragment
     - ECrossbow
     - RadioJammer
     - ChameleonProjector

@@ -4,7 +4,7 @@
   description: "Whispers in the dark."
   rumors:
     - PrayBasicEvil
-  color: DarkRed
+  color: Purple
   levels:
     Convergence2: 150
     Convergence3: 500
