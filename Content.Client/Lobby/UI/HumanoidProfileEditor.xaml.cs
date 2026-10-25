@@ -709,10 +709,10 @@ namespace Content.Client.Lobby.UI
 #if DEBUG
             else
             {
-                if (_prototypeManager.TryGetRandom<AffiliationPrototype>(random, out var origin) && origin != null)
+                if (_prototypeManager.TryGetRandom<AffiliationPrototype>(random, out var affiliation) && affiliation != null)
                 {
-                    Profile?.AffiliationPrototype = origin.ID;
-                    originSelected = true;
+                    Profile?.Affiliation = affiliation.ID;
+                    affiliationSelected = true;
                 }
             }
 #endif
