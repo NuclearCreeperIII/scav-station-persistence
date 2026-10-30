@@ -149,7 +149,7 @@
                             </BoxContainer>
                             <Control MinHeight="50" />
                             <BoxContainer Orientation="Horizontal">
-                                <Label Text="This character comes from the " />
+                                <Label Text="This character is affiliated with " />
                                 <OptionButton Name="AffiliationButton" HorizontalAlignment="Right" />
                             </BoxContainer>
                             <BoxContainer Orientation="Vertical" >
