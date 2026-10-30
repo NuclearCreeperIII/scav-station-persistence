@@ -1,0 +1,12 @@
+- type: entity
+  name: reputation credit
+  parent: BaseItem
+  id: RepGiver
+  description: A token that grants (or removes) reputation with a given faction.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/Coins/coin_gold.rsi
+    state: coin_1
+  - type: Item
+    size: Tiny
+  - type: GiveRepOnUse
