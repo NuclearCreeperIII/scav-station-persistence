@@ -13,12 +13,13 @@
 
 - type: metaFactionLevel
   id: Convergence2
-  name: Pawn
+  name: Inductee
   rumorRewards:
     #- ConvergenceUpgradeModule
     - TradeGood
     #- ConvergenceCodexFragment
     - GrandLottery
+    - RitualDagger
   rewardsToOffer: 2
 
 - type: metaFactionLevel
@@ -40,11 +41,13 @@
     - IchorCigarettes
     - RaidSuit
     - CombatToolbox
-  rewardsToOffer: 2
+    - CultRobes
+    - PrecursorFakeMindshield
+  rewardsToOffer: 4
 
 - type: metaFactionLevel
   id: Convergence4
-  name: Cult Leader
+  name: Priest
   rumorRewards:
     #- ConvergenceUpgradeModule
     - TradeGood
@@ -57,6 +60,9 @@
     - ECrossbow
     - RadioJammer
     - Chameleon
+    - BedsheetCult
+    - CultArmor
+    - ArmBlade
   rewardsToOffer: 2
 
 
