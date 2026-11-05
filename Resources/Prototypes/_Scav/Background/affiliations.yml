@@ -22,4 +22,4 @@
   name: Tradehouse Ivenmoth
   description: "You are employed by Tradehouse Ivenmoth, a smaller trading company that dominates the space around the Heavenly Veil."
   effects:
-    - TraitOriginZenith #This is wrong but until they have their own gear
+    - TraitOriginIvenmoth
