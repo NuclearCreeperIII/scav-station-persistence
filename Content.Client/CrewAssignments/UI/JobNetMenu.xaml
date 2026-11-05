@@ -165,8 +165,8 @@
                             <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
                                 <RichTextLabel Name="RumorLimitLbl" />
                                 <Control HorizontalExpand="True" />
-                                <Label Text="Next Rumor:" StyleClasses="LabelKeyText" />
-                                <RichTextLabel Name="RumorCooldownLbl" />
+                                <!--<Label Text="Next Rumor:" StyleClasses="LabelKeyText" />
+                                <RichTextLabel Name="RumorCooldownLbl" />-->
                             </BoxContainer>
                             <GridContainer Name="CurrentGrid" Columns="1" />
                         </BoxContainer>

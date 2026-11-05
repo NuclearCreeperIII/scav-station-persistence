@@ -220,7 +220,7 @@ public sealed partial class JobNetMenu : DefaultWindow
         }
         if (state.RumorCooldown != null)
         {
-            RumorCooldownLbl.Text = $"{state.RumorCooldown.Value.ToString("hh\\:mm\\:ss")}";
+            //RumorCooldownLbl.Text = $"{state.RumorCooldown.Value.ToString("hh\\:mm\\:ss")}";
             UntilNextRumor = state.RumorCooldown.Value;
         }
         if (state.RewardCooldown != null)
@@ -310,7 +310,7 @@ public sealed partial class JobNetMenu : DefaultWindow
         UntilNextRumor -= TimeSpan.FromSeconds(deltaSeconds);
         if (UntilNextRumor > TimeSpan.Zero)
         {
-            RumorCooldownLbl.Text = UntilNextRumor.ToString("hh\\:mm\\:ss");
+            //RumorCooldownLbl.Text = UntilNextRumor.ToString("hh\\:mm\\:ss");
         }
         UntilNextReward -= TimeSpan.FromSeconds(deltaSeconds);
         if (UntilNextReward > TimeSpan.Zero)
