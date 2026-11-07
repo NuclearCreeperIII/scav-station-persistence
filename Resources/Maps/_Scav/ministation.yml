@@ -4,38 +4,38 @@ meta:
   engineVersion: 293.0.1
   forkId: ""
   forkVersion: ""
-  time: 11/01/2026 02:44:31
-  entityCount: 7804
+  time: 11/06/2026 00:28:23
+  entityCount: 7892
 maps:
 - 1
 grids:
 - 2
 orphans: []
 nullspace:
-- 7781
-- 7782
-- 7783
-- 7784
-- 7785
-- 7786
-- 7787
-- 7788
-- 7789
-- 7790
-- 7791
-- 7792
-- 7793
-- 7794
-- 7795
-- 7796
-- 7797
-- 7798
-- 7799
-- 7800
-- 7801
-- 7802
-- 7803
-- 7804
+- 7869
+- 7870
+- 7871
+- 7872
+- 7873
+- 7874
+- 7875
+- 7876
+- 7877
+- 7878
+- 7879
+- 7880
+- 7881
+- 7882
+- 7883
+- 7884
+- 7885
+- 7886
+- 7887
+- 7888
+- 7889
+- 7890
+- 7891
+- 7892
 tilemap:
   8: Space
   5: FloorAstroGrass
@@ -135,11 +135,11 @@ entities:
           version: 7
         1,1:
           ind: 1,1
-          tiles: AQAAAAAAAAsAAAAAAQALAAAAAAIACwAAAAACAAEAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAwABAAAAAAAACgAAAAACAAoAAAAAAgAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAACgAAAAACAAEAAAAAAAALAAAAAAAACwAAAAAAAAsAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAMADAAAAAAAAAoAAAAAAwAKAAAAAAAACgAAAAAAAAoAAAAAAwAKAAAAAAMACgAAAAAAAAoAAAAAAgABAAAAAAAACwAAAAABAAsAAAAAAAALAAAAAAMAAQAAAAAAAAAAAAAAAgAAAAAAAAMAAAAAAAACAAEAAAAAAAAKAAAAAAAACgAAAAADAAoAAAAAAgAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAEAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAADAAAAAAAAAwABAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAADAAEAAAAAAAABAAAAAAAAAAAAAAADAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAABAAoAAAAAAQABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAwAAAAAAAAIAAAAAAAAAAAEAAAAAAAAKAAAAAAEACgAAAAAAAAoAAAAAAwAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAABAAAAAAAACgAAAAAAAAoAAAAAAQAKAAAAAAAACgAAAAADAAoAAAAAAQAKAAAAAAAACgAAAAADAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAwAAAAAAAAMAAAAAAAACAAAAAAAAAwAAAAAAAAMAAQAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAACAAoAAAAAAQAKAAAAAAIACgAAAAAAAAoAAAAAAwALAAAAAAEACwAAAAAAAAsAAAAAAQALAAAAAAMAAQAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAADAAEAAAAAAAAKAAAAAAIACgAAAAACAAoAAAAAAAAKAAAAAAEACgAAAAACAAoAAAAAAAAKAAAAAAIACwAAAAACAAsAAAAAAQALAAAAAAMACwAAAAADAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAABAAoAAAAAAwAKAAAAAAMACgAAAAACAAoAAAAAAQAKAAAAAAAACgAAAAADAAsAAAAAAAALAAAAAAEACwAAAAACAAsAAAAAAwABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAKAAAAAAEACgAAAAABAAoAAAAAAwABAAAAAAAAAQAAAAAAAAsAAAAAAQALAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAEADAAAAAAAAAwAAAAAAAAMAAAAAAAACgAAAAACAAoAAAAAAwAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAA==
+          tiles: AQAAAAAAAAsAAAAAAQALAAAAAAIACwAAAAACAAEAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAwABAAAAAAAACgAAAAACAAoAAAAAAgAMAAAAAAAADAAAAAAAAAwAAAAAAAAMAAAAAAAACgAAAAACAAEAAAAAAAALAAAAAAAACwAAAAAAAAsAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAMADAAAAAAAAAoAAAAAAwAKAAAAAAAACgAAAAAAAAoAAAAAAwAKAAAAAAMACgAAAAAAAAoAAAAAAgABAAAAAAAACwAAAAABAAsAAAAAAAALAAAAAAMAAQAAAAAAAAAAAAAAAgAAAAAAAAMAAAAAAAACAAEAAAAAAAAKAAAAAAAACgAAAAADAAoAAAAAAgAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAEAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAADAAAAAAAAAwABAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAADAAEAAAAAAAABAAAAAAAAAAAAAAADAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAABAAoAAAAAAQABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAwAAAAAAAAIAAAAAAAAAAAEAAAAAAAAKAAAAAAEACgAAAAAAAAoAAAAAAwAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAABAAAAAAAACgAAAAAAAAoAAAAAAQAKAAAAAAAACgAAAAADAAoAAAAAAQAKAAAAAAAACgAAAAADAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAwAAAAAAAAMAAAAAAAACAAAAAAAAAwAAAAAAAAMAAQAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAACAAoAAAAAAQAKAAAAAAIACgAAAAAAAAoAAAAAAwALAAAAAAEACwAAAAAAAAsAAAAAAQALAAAAAAMAAQAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAADAAEAAAAAAAAKAAAAAAIACgAAAAACAAoAAAAAAAAKAAAAAAEACgAAAAACAAoAAAAAAAAKAAAAAAIACwAAAAACAAsAAAAAAQALAAAAAAMACwAAAAADAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAABAAwAAAAAAAAMAAAAAAAADAAAAAAAAAoAAAAAAQAKAAAAAAAACgAAAAADAAsAAAAAAAALAAAAAAEACwAAAAACAAsAAAAAAwABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAAAMAAAAAAAADAAAAAAAAAwAAAAAAAAKAAAAAAEACgAAAAABAAoAAAAAAwABAAAAAAAAAQAAAAAAAAsAAAAAAQALAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAEADAAAAAAAAAwAAAAAAAAMAAAAAAAACgAAAAACAAoAAAAAAwAKAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAA==
           version: 7
         2,-1:
           ind: 2,-1
-          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAJAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAAACgAAAAABAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAKAAAAAAIACgAAAAABAAoAAAAAAQAKAAAAAAIACgAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAMACgAAAAACAAoAAAAAAQABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACgAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAACAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAEAAAAAAEABAAAAAAAAAQAAAAAAwAEAAAAAAMABAAAAAADAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAQAAAAAAAAEAAAAAAIABAAAAAAAAAQAAAAAAwABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAEAAAAAAEABAAAAAACAAQAAAAAAAAEAAAAAAIAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAMACgAAAAADAAoAAAAAAgAKAAAAAAIAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAA==
+          tiles: AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAJAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAAACgAAAAABAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAKAAAAAAIACgAAAAABAAoAAAAAAQAKAAAAAAIACgAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAMACgAAAAACAAoAAAAAAQABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACgAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAACAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAEAAAAAAEABAAAAAAAAAQAAAAAAwAEAAAAAAMABAAAAAADAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAQAAAAAAAAEAAAAAAIABAAAAAAAAAQAAAAAAwABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAEAAAAAAEABAAAAAACAAQAAAAAAAAEAAAAAAIAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAA==
           version: 7
         2,-2:
           ind: 2,-2
@@ -159,7 +159,7 @@ entities:
           version: 7
         2,0:
           ind: 2,0
-          tiles: CgAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAABAAoAAAAAAgAKAAAAAAIAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAKAAAAAAIACgAAAAACAAoAAAAAAAAKAAAAAAEACgAAAAACAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACgAAAAABAAoAAAAAAgAKAAAAAAAACgAAAAABAAoAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAoAAAAAAQAKAAAAAAIACgAAAAACAAoAAAAAAQAKAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAKAAAAAAMACgAAAAADAAoAAAAAAAAKAAAAAAEACgAAAAABAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAABABIAAAAAAAASAAAAAAAAEgAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAAACgAAAAABAAoAAAAAAgASAAAAAAAAEgAAAAAAABIAAAAAAAASAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAACAAoAAAAAAgAKAAAAAAEAEgAAAAAAABIAAAAAAAASAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAACAAEAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAACAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAEACgAAAAAAAAoAAAAAAAAKAAAAAAMACgAAAAADAAoAAAAAAAAKAAAAAAIACgAAAAADAAoAAAAAAAAKAAAAAAIACgAAAAACAAoAAAAAAQAKAAAAAAMACgAAAAADAAoAAAAAAQABAAAAAAAACgAAAAADAAoAAAAAAgAKAAAAAAMACgAAAAABAAoAAAAAAAAKAAAAAAMACgAAAAACAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAABAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAoAAAAAAwAKAAAAAAEACgAAAAAAAAoAAAAAAwAKAAAAAAEACgAAAAABAAoAAAAAAAAKAAAAAAAACgAAAAADAAoAAAAAAwAKAAAAAAIACgAAAAABAAoAAAAAAAAKAAAAAAMACgAAAAABAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAABAAoAAAAAAQABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAACAAoAAAAAAAAKAAAAAAIACgAAAAACAAEAAAAAAAAKAAAAAAIACgAAAAABAAoAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAA==
+          tiles: CgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAACgAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAoAAAAAAAABAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAABABIAAAAAAAASAAAAAAAAEgAAAAAAAAEAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAAACgAAAAABAAoAAAAAAgASAAAAAAAAEgAAAAAAABIAAAAAAAASAAAAAAAACAAAAAAAAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAACAAoAAAAAAgAKAAAAAAEAEgAAAAAAABIAAAAAAAASAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAIACgAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAACAAEAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAACAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAKAAAAAAEACgAAAAAAAAoAAAAAAAAKAAAAAAMACgAAAAADAAoAAAAAAAAKAAAAAAIACgAAAAADAAoAAAAAAAAKAAAAAAIACgAAAAACAAoAAAAAAQAKAAAAAAMACgAAAAADAAoAAAAAAQABAAAAAAAACgAAAAADAAoAAAAAAgAKAAAAAAMACgAAAAABAAoAAAAAAAAKAAAAAAMACgAAAAACAAoAAAAAAAAKAAAAAAAACgAAAAAAAAoAAAAAAAAKAAAAAAAACgAAAAABAAoAAAAAAQAKAAAAAAEAAQAAAAAAAAoAAAAAAwAKAAAAAAEACgAAAAAAAAoAAAAAAwAKAAAAAAEACgAAAAABAAoAAAAAAAAKAAAAAAAACgAAAAADAAoAAAAAAwAKAAAAAAIACgAAAAABAAoAAAAAAAAKAAAAAAMACgAAAAABAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAoAAAAAAgAKAAAAAAEACgAAAAABAAoAAAAAAQABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAACgAAAAACAAoAAAAAAAAKAAAAAAIACgAAAAACAAEAAAAAAAAKAAAAAAIACgAAAAABAAoAAAAAAAABAAAAAAAAAQAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAA==
           version: 7
         2,1:
           ind: 2,1
@@ -264,6 +264,11 @@ entities:
         - volume: 2500
           moles: {}
           immutable: True
+        - temperature: 293.14996
+          volume: 2500
+          moles:
+            Oxygen: 21.824879
+            Nitrogen: 82.10312
         tiles:
           0,0:
             0: 15283
@@ -617,7 +622,8 @@ entities:
           7,4:
             0: 40959
           8,0:
-            0: 61167
+            0: 59119
+            3: 2048
           8,1:
             0: 65294
           8,2:
@@ -1057,30 +1063,31 @@ entities:
     - type: RadiationGridResistance
     - type: ChunkContainer
       chunkEntities:
-      - 7781
-      - 7782
-      - 7783
-      - 7784
-      - 7785
-      - 7786
-      - 7787
-      - 7788
-      - 7789
-      - 7790
-      - 7791
-      - 7792
-      - 7793
-      - 7794
-      - 7795
-      - 7796
-      - 7797
-      - 7798
-      - 7799
-      - 7800
-      - 7801
-      - 7802
-      - 7803
-      - 7804
+      - 7869
+      - 7870
+      - 7871
+      - 7872
+      - 7873
+      - 7874
+      - 7875
+      - 7876
+      - 7877
+      - 7878
+      - 7879
+      - 7880
+      - 7881
+      - 7882
+      - 7883
+      - 7884
+      - 7885
+      - 7886
+      - 7887
+      - 7888
+      - 7889
+      - 7890
+      - 7891
+      - 7892
+    - type: NavMap
 - proto: AirAlarm
   entities:
   - uid: 1304
@@ -1108,6 +1115,24 @@ entities:
       - 1280
     - type: Wires
       wireSeed: 864438613
+  - uid: 2599
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.5,19.5
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      address: AIR-1C96-111A
+    - type: DeviceList
+      devices:
+      - 7790
+      - 7791
+      - 6417
+      - 6412
+      - 6384
+    - type: Wires
+      wireSeed: 1281322509
   - uid: 4730
     components:
     - type: Transform
@@ -1380,6 +1405,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 43.5,10.5
+    - type: DeviceList
+      devices:
+      - 6411
+      - 3813
+      - 2404
     - type: DeviceNetwork
       transmitFrequency: 1621
       receiveFrequency: 1621
@@ -1522,17 +1552,6 @@ entities:
       - 4788
     - type: Wires
       wireSeed: 1703696517
-  - uid: 6496
-    components:
-    - type: Transform
-      parent: 2
-      pos: 36.5,5.5
-    - type: DeviceNetwork
-      transmitFrequency: 1621
-      receiveFrequency: 1621
-      address: AIR-26B6-080F
-    - type: Wires
-      wireSeed: 1065218782
   - uid: 6498
     components:
     - type: Transform
@@ -2381,7 +2400,7 @@ entities:
       pos: -0.5,35.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -50212.508
+      secondsUntilStateChange: -55786.316
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -2944,11 +2963,22 @@ entities:
     - type: Transform
       parent: 2
       pos: 13.5,-49.5
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        851c11d5-c9a7-40d0-9599-fe167bfbaa94:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: Wires
       wireSeed: 288104844
     - type: DeviceNetwork
       receiveFrequency: 1280
       address: 5C70-3993
+    - type: PersistentIdentifier
+      id: 00a4027b-2fe0-4874-a498-9399bdec4f4a
   - uid: 1008
     components:
     - type: Transform
@@ -2967,6 +2997,13 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 6.5,38.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        3274471a-5567-4c65-be41-e96692a6e9b3:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -2990,6 +3027,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 46.5,14.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        1ef229c9-54fa-49e0-9345-9583206bbe70:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3260,6 +3304,13 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -25.5,2.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        3bf21e01-dd54-4f01-988e-42f8725373f0:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3275,6 +3326,13 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -25.5,0.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        6b1637d0-44ee-4bf7-a0aa-5e689a4b3b03:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3290,6 +3348,13 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -25.5,8.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        d8105fc2-4b3f-47c1-9464-0f810df9afd7:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3305,6 +3370,13 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -25.5,10.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        0d9921ea-198c-4d7b-b081-664b66a9716d:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3331,6 +3403,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -19.5,14.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        04540ecb-35df-43c1-b3ca-198cf09577c0:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3345,6 +3424,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -19.5,17.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        0bf9918f-15e7-453a-b562-714871033e26:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3371,6 +3457,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 32.5,-15.5
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        bd45d2a4-593c-4a8b-b46c-308492c28cde:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: Wires
       wireSeed: 1095351120
     - type: DeviceNetwork
@@ -3383,6 +3478,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 32.5,-17.5
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        0ce5b4ed-0985-4a55-b14d-7271a8f8c769:
+        - - DoorStatus
+          - InputA
+        - - DoorStatus
+          - InputB
     - type: Wires
       wireSeed: 636514856
     - type: DeviceNetwork
@@ -3397,6 +3501,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -24.5,-6.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        3a968b8f-7b2b-46d7-a1f5-7f3cb35d4ef3:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3411,6 +3522,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -17.5,-6.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        e1d53630-2471-4e8f-9840-6db45edd2568:
+        - - DoorStatus
+          - InputB
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: Wires
@@ -3471,7 +3589,7 @@ entities:
       pos: 2.5,-0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -53495.406
+      secondsUntilStateChange: -59069.215
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3595,7 +3713,7 @@ entities:
       pos: 2.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -53494.973
+      secondsUntilStateChange: -59068.78
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3679,7 +3797,7 @@ entities:
       pos: -1.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -53494.137
+      secondsUntilStateChange: -59067.945
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3705,7 +3823,7 @@ entities:
       pos: -1.5,-0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -53494.438
+      secondsUntilStateChange: -59068.246
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3760,6 +3878,11 @@ entities:
           - DoorBolt
         - - DockStatus
           - Close
+        dd1b45c4-fe9b-427e-9d2b-924abeef580d:
+        - - DockStatus
+          - InputB
+        - - DockStatus
+          - InputA
     - type: Wires
       wireSeed: 74810409
     - type: DeviceNetwork
@@ -3773,11 +3896,11 @@ entities:
       pos: 46.5,17.5
     - type: DeviceLinkSource
       linkedPorts:
-        fd59f470-35cd-45fb-bc89-5f8cea0818fc:
-        - - DockStatus
-          - InputA
+        bb8cc74b-18dd-4db6-8bc5-528add2215f1:
         - - DockStatus
           - InputB
+        - - DockStatus
+          - InputA
     - type: Wires
       wireSeed: 1550521855
     - type: DeviceNetwork
@@ -3793,7 +3916,7 @@ entities:
       pos: -29.5,2.5
     - type: DeviceLinkSource
       linkedPorts:
-        0d447f85-2fca-4227-9d64-6de56484c09c:
+        81d8942f-4e0b-42ef-a303-e7c3466dae2b:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -3811,7 +3934,7 @@ entities:
       pos: -29.5,0.5
     - type: DeviceLinkSource
       linkedPorts:
-        9aa5418e-0fb0-4dc8-8390-c23d9c2f2c0e:
+        907d7393-d078-443e-b56c-70f8ef62bd11:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -3829,7 +3952,7 @@ entities:
       pos: -29.5,8.5
     - type: DeviceLinkSource
       linkedPorts:
-        4d0e11e6-0b1d-487e-8fb7-1d6b071c8566:
+        4b44b250-5f40-4f0e-bf00-2c8d3c5d3aa5:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -3849,7 +3972,7 @@ entities:
       pos: -29.5,10.5
     - type: DeviceLinkSource
       linkedPorts:
-        40d2c953-dd17-4176-a915-2d2e9c1f66aa:
+        d1e82f96-39cf-472d-8d00-034ea00e0b2f:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -3869,11 +3992,11 @@ entities:
       pos: -21.5,14.5
     - type: DeviceLinkSource
       linkedPorts:
-        13b3edd9-9811-4f2a-b06e-11071e146910:
-        - - DockStatus
-          - InputA
+        458e666f-9e05-47da-954d-8687b532fa5f:
         - - DockStatus
           - InputB
+        - - DockStatus
+          - InputA
     - type: Wires
       wireSeed: 559601331
     - type: DeviceNetwork
@@ -3887,11 +4010,11 @@ entities:
       pos: -21.5,17.5
     - type: DeviceLinkSource
       linkedPorts:
-        e1a517bd-ced3-4ed5-bfcf-58c1d186613e:
-        - - DockStatus
-          - InputA
+        0704dad0-178a-420b-b4c2-a8922bfbe05e:
         - - DockStatus
           - InputB
+        - - DockStatus
+          - InputA
     - type: Wires
       wireSeed: 1964324708
     - type: DeviceNetwork
@@ -3910,6 +4033,11 @@ entities:
           - DoorBolt
         - - DockStatus
           - Close
+        587b58ad-df56-464b-a017-017d86bbc217:
+        - - DockStatus
+          - InputB
+        - - DockStatus
+          - InputA
     - type: Wires
       wireSeed: 859789622
     - type: DeviceNetwork
@@ -3928,7 +4056,7 @@ entities:
       pos: 2.5,-27.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -64624.402
+      secondsUntilStateChange: -70198.21
     - type: Wires
       wireSeed: 1961505938
     - type: DeviceNetwork
@@ -3954,7 +4082,7 @@ entities:
       pos: -7.5,0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -59892.73
+      secondsUntilStateChange: -65466.54
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4120,7 +4248,7 @@ entities:
       pos: -3.5,24.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -52972.87
+      secondsUntilStateChange: -58546.68
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4835,6 +4963,8 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+    - type: PersistentIdentifier
+      id: c47de4ac-2abf-4c37-8d50-d28b7b67932c
   - uid: 2519
     components:
     - type: Transform
@@ -5026,7 +5156,7 @@ entities:
       pos: -24.5,-8.5
     - type: DeviceLinkSource
       linkedPorts:
-        362a5be6-cecf-44a1-93b7-980a3896d5a1:
+        8165bb84-ff4d-4f38-8dfe-2a66aa6754d6:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -5044,7 +5174,7 @@ entities:
       pos: 8.5,38.5
     - type: DeviceLinkSource
       linkedPorts:
-        67b5c81f-214d-410e-8ee2-da70a2a8266e:
+        6e88b5bd-b944-44f2-bb3a-48f40d55892a:
         - - DockStatus
           - InputA
         - - DockStatus
@@ -5072,23 +5202,35 @@ entities:
       pos: -17.5,-8.5
     - type: DeviceLinkSource
       linkedPorts:
-        250079da-9fec-43a1-8e2d-268307ffb269:
-        - - DockStatus
-          - InputB
+        f66602fe-307f-47e5-8586-4b6cb67633cf:
         - - DockStatus
           - InputA
+        - - DockStatus
+          - InputB
     - type: Wires
       wireSeed: 737439302
     - type: DeviceNetwork
       receiveFrequency: 1280
       address: 1C23-CE4E
-- proto: AirlockShuttleAssembly
-  entities:
-  - uid: 6049
+    - type: PersistentIdentifier
+      id: 4d8f94aa-95c0-4722-892e-6b4c030815fb
+  - uid: 7821
     components:
     - type: Transform
       parent: 2
       pos: 13.5,-53.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        a39f7295-e926-4208-8660-3fa04ad27172:
+        - - DockStatus
+          - InputB
+        - - DockStatus
+          - InputA
+    - type: Wires
+      wireSeed: 1055338768
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: DOR-7532-3B20
 - proto: AirSensor
   entities:
   - uid: 3190
@@ -5297,18 +5439,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 25.265442,24.503119
-  - uid: 2765
-    components:
-    - type: Transform
-      parent: 2
-      pos: 25.671692,24.534369
 - proto: AnomalyScanner
   entities:
-  - uid: 2762
-    components:
-    - type: Transform
-      parent: 2
-      pos: 25.499817,27.456244
   - uid: 2763
     components:
     - type: Transform
@@ -5522,22 +5654,6 @@ entities:
       pos: 33.5,24.5
     - type: Wires
       wireSeed: 15556827
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 3192
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.5,19.5
-    - type: Wires
-      wireSeed: 1974274155
     - type: Damageable
       damage:
         types:
@@ -5921,6 +6037,13 @@ entities:
       pos: 20.5,-21.5
     - type: Wires
       wireSeed: 912814872
+  - uid: 7797
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,19.5
+    - type: Wires
+      wireSeed: 1729510859
 - proto: Ashtray
   entities:
   - uid: 6592
@@ -5958,6 +6081,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -8.5,20.5
+  - uid: 7804
+    components:
+    - type: Transform
+      parent: 2
+      pos: 30.5,16.5
 - proto: Barricade
   entities:
   - uid: 709
@@ -6113,6 +6241,20 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: BaseStorageCounter
+  entities:
+  - uid: 7036
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 34.5,-0.5
+  - uid: 7600
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 35.5,-0.5
 - proto: Bed
   entities:
   - uid: 777
@@ -6195,6 +6337,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -10.5,13.5
+  - uid: 7783
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,23.5
 - proto: BedsheetBrown
   entities:
   - uid: 2854
@@ -6236,6 +6383,13 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -10.5,-10.5
+- proto: BedsheetHOS
+  entities:
+  - uid: 7784
+    components:
+    - type: Transform
+      parent: 2
+      pos: 3.5,23.5
 - proto: BedsheetMedical
   entities:
   - uid: 2635
@@ -6905,7 +7059,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 25.408674,18.619541
+      pos: 25.391714,18.628103
   - uid: 2916
     components:
     - type: Transform
@@ -6948,6 +7102,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 9.5540495,28.552813
+  - uid: 7849
+    components:
+    - type: Transform
+      parent: 2
+      pos: 28.5905,21.913939
 - proto: BoxFolderNuclearCodes
   entities:
   - uid: 6344
@@ -6980,6 +7139,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 16.761978,25.463806
+  - uid: 7787
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.611689,23.58324
 - proto: BoxFolderTitaniumRedEmpty
   entities:
   - uid: 6339
@@ -7036,27 +7200,20 @@ entities:
     - type: Transform
       parent: 2
       pos: 15.77872,-23.317095
-- proto: BoxMouthSwab
-  entities:
-  - uid: 6169
-    components:
-    - type: Transform
-      parent: 2
-      pos: 33.564915,4.629716
 - proto: BoxNitrileGloves
   entities:
   - uid: 6171
     components:
     - type: Transform
       parent: 2
-      pos: 28.37005,4.535966
+      pos: 28.302015,1.4170132
 - proto: BoxSterileMask
   entities:
-  - uid: 6168
+  - uid: 2671
     components:
     - type: Transform
       parent: 2
-      pos: 33.54784,3.6712315
+      pos: 28.583265,1.6357632
 - proto: BoxSyringe
   entities:
   - uid: 1302
@@ -7068,7 +7225,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 35.398495,-0.38915062
+      pos: 35.41888,-0.39179516
 - proto: BriefcaseBrownFilled
   entities:
   - uid: 6328
@@ -7141,6 +7298,13 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 4.5,14.5
+- proto: cabinetMed
+  entities:
+  - uid: 6169
+    components:
+    - type: Transform
+      parent: 2
+      pos: 30.5,4.5
 - proto: CableApcExtension
   entities:
   - uid: 722
@@ -26139,32 +26303,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 3194
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.5,19.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 3195
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.5,18.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 3196
     components:
     - type: Transform
@@ -29265,6 +29403,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 20.5,-21.5
+  - uid: 7798
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,19.5
 - proto: CableMVStack
   entities:
   - uid: 2772
@@ -30682,13 +30825,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 13.5,-27.5
-- proto: Cautery
-  entities:
-  - uid: 6175
-    components:
-    - type: Transform
-      parent: 2
-      pos: 36.8992,4.7822695
 - proto: Chair
   entities:
   - uid: 4223
@@ -30953,31 +31089,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 2760
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.5,21.5
-      anchored: True
-    - type: Physics
-      bodyType: Static
-    - type: Damageable
-      radiationDamageTypes:
-      - Radiation
-      painDamageGroups:
-      - Brute
-      - Burn
-      healthIcons:
-        Alive: HealthIconFine
-        Critical: HealthIconCritical
-        Dead: HealthIconDead
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 2835
     components:
     - type: Transform
@@ -31021,6 +31132,12 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.4956865,-37.489258
+  - uid: 7786
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 4.476536,22.453735
 - proto: ChairOfficeLight
   entities:
   - uid: 383
@@ -31329,7 +31446,7 @@ entities:
           Piercing: 0
 - proto: ChunkEntity
   entities:
-  - uid: 7781
+  - uid: 7869
     components:
     - type: ChunkEntity
       root: 2
@@ -31378,7 +31495,7 @@ entities:
             2: -19,-6
             16: -25,-6
             17: -24,-6
-  - uid: 7782
+  - uid: 7870
     components:
     - type: ChunkEntity
       root: 2
@@ -31411,7 +31528,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             16: -16,-3
-  - uid: 7783
+  - uid: 7871
     components:
     - type: ChunkEntity
       root: 2
@@ -31450,13 +31567,13 @@ entities:
             8: -19,14
             9: -19,15
             15: -25,1
-  - uid: 7784
+  - uid: 7872
     components:
     - type: ChunkEntity
       root: 2
       chunk: 1,1
     - type: DecalChunk
-      maxDecalId: 15
+      maxDecalId: 16
       decals:
         version: 1
         nodes:
@@ -31501,29 +31618,31 @@ entities:
             id: WarnCornerSE
             color: '#FFFFFFFF'
           decals:
-            7: 28,26
+            7: 28,25
         - node:
             id: WarnCornerSW
             color: '#FFFFFFFF'
           decals:
-            6: 26,26
+            6: 26,25
         - node:
             id: WarnLineE
             color: '#FFFFFFFF'
           decals:
             5: 28,27
+            16: 28,26
         - node:
             id: WarnLineS
             color: '#FFFFFFFF'
           decals:
             4: 26,27
+            9: 26,26
         - node:
             id: WarnLineW
             color: '#FFFFFFFF'
           decals:
             2: 29,16
             3: 28,16
-  - uid: 7785
+  - uid: 7873
     components:
     - type: ChunkEntity
       root: 2
@@ -31632,16 +31751,43 @@ entities:
             color: '#FFFFFFFF'
           decals:
             9: 26,13
-  - uid: 7786
+  - uid: 7874
     components:
     - type: ChunkEntity
       root: 2
       chunk: 2,0
     - type: DecalChunk
-      maxDecalId: 11
+      maxDecalId: 18
       decals:
         version: 1
         nodes:
+        - node:
+            id: BrickTileDarkCornerNe
+            color: '#FFFFFFFF'
+          decals:
+            16: 33,2
+        - node:
+            id: BrickTileDarkCornerNw
+            color: '#FFFFFFFF'
+          decals:
+            12: 37,2
+        - node:
+            id: BrickTileDarkInnerNe
+            color: '#FFFFFFFF'
+          decals:
+            18: 33,1
+        - node:
+            id: BrickTileDarkInnerNw
+            color: '#FFFFFFFF'
+          decals:
+            17: 37,1
+        - node:
+            id: BrickTileDarkLineN
+            color: '#FFFFFFFF'
+          decals:
+            13: 36,1
+            14: 35,1
+            15: 34,1
         - node:
             id: FullTileOverlayGreyscale
             color: '#52B4E996'
@@ -31682,7 +31828,7 @@ entities:
             4: 42,9
             5: 43,9
             6: 44,9
-  - uid: 7787
+  - uid: 7875
     components:
     - type: ChunkEntity
       root: 2
@@ -31702,7 +31848,7 @@ entities:
             color: '#724276FF'
           decals:
             1: 32,20
-  - uid: 7788
+  - uid: 7876
     components:
     - type: ChunkEntity
       root: 2
@@ -31790,7 +31936,7 @@ entities:
             23: 8,7
             24: 9,7
             25: 10,7
-  - uid: 7789
+  - uid: 7877
     components:
     - type: ChunkEntity
       root: 2
@@ -31837,7 +31983,7 @@ entities:
           decals:
             8: 7,21
             9: 9,21
-  - uid: 7790
+  - uid: 7878
     components:
     - type: ChunkEntity
       root: 2
@@ -31955,7 +32101,7 @@ entities:
             17: 22,-2
             18: 22,-4
             19: 22,-3
-  - uid: 7791
+  - uid: 7879
     components:
     - type: ChunkEntity
       root: 2
@@ -31977,7 +32123,7 @@ entities:
           decals:
             2: 33,-7
             3: 33,-5
-  - uid: 7792
+  - uid: 7880
     components:
     - type: ChunkEntity
       root: 2
@@ -32012,7 +32158,7 @@ entities:
             3: 10,-30
             4: 12,-30
             5: 13,-30
-  - uid: 7793
+  - uid: 7881
     components:
     - type: ChunkEntity
       root: 2
@@ -32064,7 +32210,7 @@ entities:
             2: -9,-31
             3: -8,-31
             8: -5,-30
-  - uid: 7794
+  - uid: 7882
     components:
     - type: ChunkEntity
       root: 2
@@ -32091,7 +32237,7 @@ entities:
             color: '#EFB34196'
           decals:
             0: -1,-34
-  - uid: 7795
+  - uid: 7883
     components:
     - type: ChunkEntity
       root: 2
@@ -32128,7 +32274,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             6: 10,-48
-  - uid: 7796
+  - uid: 7884
     components:
     - type: ChunkEntity
       root: 2
@@ -32144,7 +32290,7 @@ entities:
           decals:
             0: -1,-50
             1: -2,-50
-  - uid: 7797
+  - uid: 7885
     components:
     - type: ChunkEntity
       root: 2
@@ -32165,7 +32311,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             2: 10,-49
-  - uid: 7798
+  - uid: 7886
     components:
     - type: ChunkEntity
       root: 2
@@ -32200,7 +32346,7 @@ entities:
           decals:
             0: -19,16
             1: -19,17
-  - uid: 7799
+  - uid: 7887
     components:
     - type: ChunkEntity
       root: 2
@@ -32259,7 +32405,7 @@ entities:
             angle: -1.5707963267948966 rad
           decals:
             18: -3,23
-  - uid: 7800
+  - uid: 7888
     components:
     - type: ChunkEntity
       root: 2
@@ -32277,7 +32423,7 @@ entities:
             1: -16,15
             2: -16,13
             3: -15,13
-  - uid: 7801
+  - uid: 7889
     components:
     - type: ChunkEntity
       root: 2
@@ -32313,7 +32459,7 @@ entities:
           decals:
             0: 5,38
             1: 8,38
-  - uid: 7802
+  - uid: 7890
     components:
     - type: ChunkEntity
       root: 2
@@ -32360,7 +32506,7 @@ entities:
             0: 7,-1
             1: 8,-1
             2: 9,-1
-  - uid: 7803
+  - uid: 7891
     components:
     - type: ChunkEntity
       root: 2
@@ -32374,7 +32520,7 @@ entities:
             color: '#52B4E996'
           decals:
             0: 30,-17
-  - uid: 7804
+  - uid: 7892
     components:
     - type: ChunkEntity
       root: 2
@@ -32861,6 +33007,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -10.495598,-12.460496
+  - uid: 7801
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.595766,19.481833
 - proto: ClothingHandsGlovesColorYellow
   entities:
   - uid: 4250
@@ -32950,6 +33101,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -6.4282346,-34.43835
+  - uid: 6170
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.93025,15.622384
   - uid: 6453
     components:
     - type: Transform
@@ -32981,6 +33137,11 @@ entities:
       storage: 7704
 - proto: ClothingMaskGas
   entities:
+  - uid: 2736
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.534418,19.22292
   - uid: 7582
     components:
     - type: Transform
@@ -33528,6 +33689,24 @@ entities:
           showEnts: False
           occludes: True
     - type: ItemSlots
+  - uid: 6177
+    components:
+    - type: Transform
+      parent: 2
+      pos: 26.5,19.5
+    - type: Wires
+      wireSeed: 1607940967
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          ents: []
+          showEnts: False
+          occludes: True
+        InvoicePrinter-privilegedId: !type:ContainerSlot
+          ent: null
+          showEnts: False
+          occludes: True
+    - type: ItemSlots
 - proto: ComputerMassMedia
   entities:
   - uid: 6229
@@ -33912,48 +34091,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 2669
-    components:
-    - type: Transform
-      parent: 2
-      pos: 32.5,23.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2670
-    components:
-    - type: Transform
-      parent: 2
-      pos: 33.5,23.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2671
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.5,23.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
 - proto: CrateCoffin
   entities:
   - uid: 2645
@@ -34131,6 +34268,13 @@ entities:
     - type: DeviceNetwork
       transmitFrequency: 1261
       receiveFrequency: 1262
+- proto: Crowbar
+  entities:
+  - uid: 7803
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.8041,19.502666
 - proto: CryogenicSleepUnitSpawnerLateJoin
   entities:
   - uid: 6988
@@ -34141,13 +34285,20 @@ entities:
       pos: -18.5,-5.5
 - proto: CryoPod
   entities:
-  - uid: 6137
+  - uid: 2665
     components:
     - type: Transform
       parent: 2
-      pos: 34.5,3.5
+      pos: 34.5,4.5
     - type: Wires
-      wireSeed: 1770012513
+      wireSeed: 1187372098
+  - uid: 7859
+    components:
+    - type: Transform
+      parent: 2
+      pos: 36.5,4.5
+    - type: Wires
+      wireSeed: 1596038892
 - proto: CurtainsBlueOpen
   entities:
   - uid: 830
@@ -34231,11 +34382,12 @@ entities:
       pos: 36.15247,-6.3616667
 - proto: DefibrillatorCabinetFilled
   entities:
-  - uid: 6319
+  - uid: 2737
     components:
     - type: Transform
       parent: 2
-      pos: 30.5,5.5
+      rot: -1.5707963267948966 rad
+      pos: 32.5,3.5
 - proto: DehydratedSpaceCarp
   entities:
   - uid: 6305
@@ -34550,6 +34702,12 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 2696
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 26.5,2.5
   - uid: 6243
     components:
     - type: Transform
@@ -34586,21 +34744,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 8.5,-1.5
-  - uid: 2629
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 28.5,2.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 6856
     components:
     - type: Transform
@@ -35992,36 +36135,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 2614
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 26.5,2.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2615
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 27.5,2.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 2616
     components:
     - type: Transform
@@ -36051,6 +36164,18 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 2699
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 28.5,2.5
+  - uid: 2703
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 26.5,3.5
   - uid: 2810
     components:
     - type: Transform
@@ -36081,6 +36206,12 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 3689
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 27.5,2.5
   - uid: 4255
     components:
     - type: Transform
@@ -36924,21 +37055,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -7.5,14.5
-  - uid: 2566
+  - uid: 2689
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: 28.5,1.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
+      pos: 26.5,4.5
   - uid: 2812
     components:
     - type: Transform
@@ -37032,20 +37153,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 1388
-    components:
-    - type: Transform
-      parent: 2
-      pos: 28.5,1.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 1433
     components:
     - type: Transform
@@ -37107,6 +37214,11 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 6179
+    components:
+    - type: Transform
+      parent: 2
+      pos: 26.5,4.5
   - uid: 6257
     components:
     - type: Transform
@@ -37231,9 +37343,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 36.0320618
+          startTime: 9.0422137
           length: 1
-          endTime: 37.0320618
+          endTime: 10.0422137
 - proto: Dresser
   entities:
   - uid: 1179
@@ -37260,13 +37372,29 @@ entities:
     - type: Transform
       parent: 2
       pos: -9.5,14.5
-- proto: Drill
+- proto: DresserHeadOfSecurityFilled
   entities:
-  - uid: 6170
+  - uid: 4658
     components:
     - type: Transform
       parent: 2
-      pos: 33.55886,4.2625093
+      pos: 3.5,21.5
+    - type: Storage
+      storedItems:
+        7781:
+          position: 0,0
+          _rotation: South
+        7782:
+          position: 2,0
+          _rotation: South
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents:
+          - 7781
+          - 7782
+          showEnts: False
+          occludes: True
 - proto: DrinkBeerCan
   entities:
   - uid: 5818
@@ -37328,7 +37456,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 34.509712,-0.49590778
+      pos: 34.4918,-0.3397118
 - proto: EmergencyOxygenTankFilled
   entities:
   - uid: 7774
@@ -37339,9 +37467,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 1278.5571578
+          startTime: 9.0422137
           length: 1
-          endTime: 1279.5571578
+          endTime: 10.0422137
 - proto: ExosuitFabricator
   entities:
   - uid: 2457
@@ -37402,12 +37530,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -12.5,17.5
-  - uid: 7646
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 32.5,3.5
   - uid: 7694
     components:
     - type: Transform
@@ -37437,6 +37559,12 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -18.5,5.5
+  - uid: 7864
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 32.5,-2.5
 - proto: FaxMachineBase
   entities:
   - uid: 493
@@ -37541,6 +37669,24 @@ entities:
       pos: -8.5,21.5
 - proto: FireAlarm
   entities:
+  - uid: 1388
+    components:
+    - type: Transform
+      parent: 2
+      pos: 32.5,19.5
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      address: FIR-1CE7-EA0C
+    - type: DeviceList
+      devices:
+      - 7790
+      - 7791
+      - 6417
+      - 6412
+      - 6384
+    - type: Wires
+      wireSeed: 673905768
   - uid: 6336
     components:
     - type: Transform
@@ -37693,6 +37839,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 42.5,10.5
+    - type: DeviceList
+      devices:
+      - 6411
+      - 3813
+      - 2404
     - type: DeviceNetwork
       transmitFrequency: 1621
       receiveFrequency: 1621
@@ -38676,6 +38827,10 @@ entities:
       receiveFrequency: 1621
       deviceLists:
       - 6379
+      - 1388
+      - 2599
+      configurators:
+      - invalid
       address: 145B-C82B
   - uid: 6385
     components:
@@ -38786,6 +38941,8 @@ entities:
       deviceLists:
       - 6408
       - 6407
+      - 6409
+      - 6410
       address: 5414-2C19
   - uid: 6412
     components:
@@ -38797,6 +38954,10 @@ entities:
       deviceLists:
       - 6408
       - 6407
+      - 1388
+      - 2599
+      configurators:
+      - invalid
       address: 412A-11E6
   - uid: 6413
     components:
@@ -38849,6 +39010,11 @@ entities:
       pos: 31.5,19.5
     - type: DeviceNetwork
       receiveFrequency: 1621
+      deviceLists:
+      - 1388
+      - 2599
+      configurators:
+      - invalid
       address: 7F9C-8537
   - uid: 6432
     components:
@@ -39780,11 +39946,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -8.495212,-51.600403
-  - uid: 6174
-    components:
-    - type: Transform
-      parent: 2
-      pos: 37.46511,3.6375096
 - proto: GasFilter
   entities:
   - uid: 6051
@@ -39803,6 +39964,19 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 24.5,-27.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
+  - uid: 6168
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 35.5,2.5
+    - type: GasFilter
+      filteredGases:
+      - CarbonDioxide
     - type: AtmosPipeColor
       color: '#990000FF'
     - type: AtmosPipeLayers
@@ -40909,6 +41083,12 @@ entities:
       pos: 8.5,-36.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 7851
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 34.5,0.5
 - proto: GasPipeBendAlt2
   entities:
   - uid: 2405
@@ -41695,6 +41875,14 @@ entities:
       color: '#990000FF'
 - proto: GasPipeManifold
   entities:
+  - uid: 2615
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 33.5,2.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 3201
     components:
     - type: Transform
@@ -41743,6 +41931,14 @@ entities:
       pos: 20.5,-29.5
     - type: AtmosPipeColor
       color: '#333333FF'
+  - uid: 6180
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 37.5,2.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 6711
     components:
     - type: Transform
@@ -42221,6 +42417,14 @@ entities:
       pos: 19.5,-30.5
     - type: AtmosPipeColor
       color: '#333333FF'
+  - uid: 6172
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 35.5,2.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 6681
     components:
     - type: Transform
@@ -42631,6 +42835,20 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 21.5,-24.5
+  - uid: 7856
+    components:
+    - type: Transform
+      parent: 2
+      pos: 36.5,3.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
+  - uid: 7862
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.5,3.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
 - proto: GasPipeStraightAlt1
   entities:
   - uid: 618
@@ -43653,14 +43871,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 31.5,17.5
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
-  - uid: 4654
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 31.5,18.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 4655
@@ -45443,6 +45653,14 @@ entities:
       pos: 5.5,1.5
     - type: AtmosPipeColor
       color: '#FF1A1AFF'
+  - uid: 6173
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 36.5,2.5
+    - type: AtmosPipeColor
+      color: '#0335FCFF'
   - uid: 6202
     components:
     - type: Transform
@@ -46145,8 +46363,37 @@ entities:
       pos: 5.5,-37.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 7795
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 30.5,18.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+  - uid: 7861
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5,3.5
+    - type: AtmosPipeColor
+      color: '#0335FCFF'
 - proto: GasPipeStraightAlt2
   entities:
+  - uid: 1377
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 34.5,0.5
+  - uid: 2458
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 35.5,1.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
   - uid: 2744
     components:
     - type: Transform
@@ -47231,24 +47478,30 @@ entities:
       pos: 31.5,13.5
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 4654
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 31.5,17.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
   - uid: 4656
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 31.5,19.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
   - uid: 4657
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 31.5,18.5
-  - uid: 4658
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 31.5,17.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
   - uid: 4669
     components:
     - type: Transform
@@ -48906,6 +49159,14 @@ entities:
       pos: 10.5,-15.5
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 6049
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 36.5,2.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
   - uid: 6050
     components:
     - type: Transform
@@ -49041,6 +49302,14 @@ entities:
     - type: Transform
       parent: 2
       pos: 31.5,-12.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+  - uid: 6319
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 34.5,2.5
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 6533
@@ -49632,8 +49901,38 @@ entities:
       pos: 8.5,-36.5
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 7793
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 31.5,16.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+  - uid: 7796
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 30.5,15.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+  - uid: 7850
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 33.5,0.5
 - proto: GasPipeTJunction
   entities:
+  - uid: 826
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 34.5,2.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 2202
     components:
     - type: Transform
@@ -49671,6 +49970,14 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 2738
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 36.5,2.5
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 3053
     components:
     - type: Transform
@@ -49762,6 +50069,21 @@ entities:
       pos: -21.5,0.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 2739
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.5,2.5
+    - type: AtmosPipeColor
+      color: '#0335FCFF'
+  - uid: 2741
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 35.5,2.5
+    - type: AtmosPipeColor
+      color: '#0335FCFF'
   - uid: 3398
     components:
     - type: Transform
@@ -49806,6 +50128,14 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-32.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+  - uid: 4241
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 31.5,18.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 4308
@@ -50198,6 +50528,12 @@ entities:
       pos: -8.5,-34.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 7831
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 33.5,0.5
 - proto: GasPipeTJunctionAlt2
   entities:
   - uid: 1093
@@ -50588,6 +50924,12 @@ entities:
       pos: 21.5,-24.5
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 6151
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 35.5,0.5
   - uid: 6197
     components:
     - type: Transform
@@ -50634,6 +50976,14 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -4.5,-34.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+  - uid: 7792
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 31.5,15.5
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GasPort
@@ -50807,6 +51157,14 @@ entities:
       pos: 19.5,-24.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+  - uid: 7035
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 34.5,1.5
+    - type: AtmosPipeColor
+      color: '#0335FCFF'
 - proto: GasPressurePumpAlt2
   entities:
   - uid: 6071
@@ -50826,6 +51184,17 @@ entities:
       pos: 4.5,-45.5
 - proto: GasThermoMachineFreezer
   entities:
+  - uid: 488
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5,4.5
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      address: FZR-1552-2484
+    - type: AtmosPipeLayers
+      pipeLayer: Secondary
   - uid: 2719
     components:
     - type: Transform
@@ -50845,15 +51214,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 6090
-    components:
-    - type: Transform
-      parent: 2
-      pos: 36.5,3.5
-    - type: DeviceNetwork
-      transmitFrequency: 1621
-      receiveFrequency: 1621
-      address: FZR-765B-43E9
 - proto: GasVentPump
   entities:
   - uid: 2404
@@ -50865,6 +51225,9 @@ entities:
     - type: DeviceNetwork
       transmitFrequency: 1621
       receiveFrequency: 1621
+      deviceLists:
+      - 6409
+      - 6410
       address: VNT-5234-203B
     - type: AtmosPipeColor
       color: '#0055CCFF'
@@ -51713,6 +52076,36 @@ entities:
       color: '#0055CCFF'
     - type: AtmosPipeLayers
       pipeLayer: Secondary
+  - uid: 7791
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 29.5,18.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: AtmosPipeLayers
+      pipeLayer: Secondary
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      deviceLists:
+      - 1388
+      - 2599
+      configurators:
+      - invalid
+      address: VNT-66C5-B969
+  - uid: 7852
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,1.5
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      address: VNT-00BF-67BA
+    - type: AtmosPipeLayers
+      pipeLayer: Secondary
 - proto: GasVentPumpFreezer
   entities:
   - uid: 2732
@@ -51792,6 +52185,9 @@ entities:
     - type: DeviceNetwork
       transmitFrequency: 1621
       receiveFrequency: 1621
+      deviceLists:
+      - 6409
+      - 6410
       address: SCR-65CB-2D2F
     - type: AtmosPipeColor
       color: '#990000FF'
@@ -52522,6 +52918,37 @@ entities:
       address: SCR-6F5E-6584
     - type: AtmosPipeColor
       color: '#990000FF'
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
+  - uid: 7790
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 29.5,15.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      deviceLists:
+      - 1388
+      - 2599
+      configurators:
+      - invalid
+      address: SCR-64F9-E660
+  - uid: 7854
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 36.5,0.5
+    - type: DeviceNetwork
+      transmitFrequency: 1621
+      receiveFrequency: 1621
+      address: SCR-7EA6-6851
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
 - proto: GasVentScrubberFreezer
@@ -55519,7 +55946,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 25.533674,16.588291
+      pos: 25.537992,19.729345
   - uid: 5875
     components:
     - type: Transform
@@ -55564,13 +55991,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 1.5,-44.5
-- proto: Hemostat
-  entities:
-  - uid: 6177
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.55545,4.7666445
 - proto: HolopadCommandHop
   entities:
   - uid: 1202
@@ -55738,6 +56158,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 34.613033,25.638292
+- proto: IngotSilver1
+  entities:
+  - uid: 7806
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.56236,15.60509
 - proto: JanitorialTrolley
   entities:
   - uid: 1026
@@ -55764,9 +56191,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 1252.5585521
+          startTime: 9.0422137
           length: 1
-          endTime: 1253.5585521
+          endTime: 10.0422137
 - proto: JetpackBlueFilled
   entities:
   - uid: 6444
@@ -55777,9 +56204,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 36.0320618
+          startTime: 9.0422137
           length: 1
-          endTime: 37.0320618
+          endTime: 10.0422137
   - uid: 6445
     components:
     - type: Transform
@@ -55788,9 +56215,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 36.0320618
+          startTime: 9.0422137
           length: 1
-          endTime: 37.0320618
+          endTime: 10.0422137
 - proto: JetpackMiniFilled
   entities:
   - uid: 6316
@@ -55800,9 +56227,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 380.3098029
+          startTime: 9.0422137
           length: 1
-          endTime: 381.3098029
+          endTime: 10.0422137
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -55885,6 +56312,14 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 7867
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5,23.5
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 1B5B-FBDB
 - proto: KitchenReagentGrinderBeaker
   entities:
   - uid: 2700
@@ -55917,6 +56352,11 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+  - uid: 7825
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5,20.5
 - proto: KitchenSpike
   entities:
   - uid: 1391
@@ -55976,7 +56416,12 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 34.509712,-0.32403278
+      pos: 34.46055,-0.4022118
+  - uid: 7805
+    components:
+    - type: Transform
+      parent: 2
+      pos: 32.59361,15.750922
 - proto: LauncherSyringe
   entities:
   - uid: 7662
@@ -56068,6 +56513,13 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: LockerChiefMedicalOfficerFilledHardsuit
+  entities:
+  - uid: 7853
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,-8.5
 - proto: LockerDetective
   entities:
   - uid: 4942
@@ -56101,11 +56553,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 14.5,26.5
-  - uid: 488
-    components:
-    - type: Transform
-      parent: 2
-      pos: 14.5,27.5
 - proto: LockerHeadOfPersonnelFilled
   entities:
   - uid: 2430
@@ -56195,25 +56642,20 @@ entities:
     - type: Transform
       parent: 2
       pos: 19.5,24.5
+- proto: LockerResearchDirectorFilledHardsuit
+  entities:
+  - uid: 7034
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.5,21.5
 - proto: LockerScienceFilled
   entities:
-  - uid: 2703
+  - uid: 2743
     components:
     - type: Transform
       parent: 2
       pos: 27.5,19.5
-      anchored: True
-    - type: Physics
-      bodyType: Static
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 2757
     components:
     - type: Transform
@@ -56274,301 +56716,1020 @@ entities:
     - type: Transform
       parent: 2
       pos: -12.5,-31.5
-- proto: LogicGateNand
+- proto: LogicGateAnd
   entities:
-  - uid: 2689
+  - uid: 2762
     components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
     - type: Transform
       parent: 2
-      pos: -24.5,-7.5
-      anchored: True
+      pos: -17.460024,17.523405
     - type: LogicGate
-      lastOutput: True
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        889af5ae-3129-441d-bba5-4d256fc13eff:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 67EB-0191
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: c296b06d-fb39-42e7-a03f-c2bab0684832
+  - uid: 2765
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: 5.353355,37.552353
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        677a4869-12f4-460c-9654-39f9e75f605a:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 48A9-EC27
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: de486972-60df-40f9-b0ca-1959fa9259f6
+  - uid: 2866
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: -17.478361,14.530423
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        b6d5a3bd-d8d2-4a0d-bb47-23fec34d1d23:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 1591-42F5
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: f696c2ea-c38f-42e0-b859-e7f120383871
+  - uid: 7802
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: 46.50548,12.481381
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        83d38cdb-b127-4094-8a98-291ee2352d7a:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 36D9-FB84
+    - type: PersistentIdentifier
+      id: db804014-3d8d-4f16-922b-590c869b2e69
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+  - uid: 7808
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: 31.380842,-17.489073
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        c1a31110-deae-4146-820f-93ce9fc11980:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 157D-2AD3
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: f60978bd-46fa-4dde-880e-604489b076c2
+  - uid: 7809
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: 31.387136,-15.536607
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        04b57f2d-67c1-4c7c-8cbc-eb6381ca4a7b:
+        - - Output
+          - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 5E65-8F17
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: ed6475ea-8684-4b5d-bd96-0653dd73b96a
+  - uid: 7826
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: 13.470306,-48.55466
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        00a4027b-2fe0-4874-a498-9399bdec4f4a:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 6E40-DD57
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 19648bd5-c1c9-4c36-9837-79d6bf5d09ac
+  - uid: 7834
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: -23.623848,-5.4743414
+    - type: LogicGate
+      stateB: High
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
         71bfe636-1f34-4ebf-b51b-74b3a12dedf7:
         - - Output
-          - Close
-        - - Output
           - DoorBolt
-      lastSignals:
-        Output: True
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 4A82-4486
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 6813-72A9
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 362a5be6-cecf-44a1-93b7-980a3896d5a1
-  - uid: 2921
+      id: 7d63655b-cc2e-426b-860f-aaa04c38157d
+  - uid: 7835
     components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
     - type: Transform
       parent: 2
-      pos: -17.5,-7.5
-      anchored: True
+      pos: -16.576626,-5.442704
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
         3bf9c752-c618-4f4f-bc21-030086363ac6:
         - - Output
           - DoorBolt
-        - - Output
-          - Close
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 7F3E-134C
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 49F9-1540
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 250079da-9fec-43a1-8e2d-268307ffb269
-  - uid: 3129
+      id: dc2788a4-a63c-49bf-b36b-254e17db0053
+  - uid: 7841
     components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
     - type: Transform
       parent: 2
-      pos: -28.5,2.5
-      anchored: True
-    - type: DeviceLinkSource
-      linkedPorts:
-        59c7612c-a281-406f-90da-01ecbb9ca05a:
-        - - Output
-          - DoorBolt
-        - - Output
-          - Close
+      pos: -23.644062,0.5053332
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 70C5-EBC2
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 402F-E4DD
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 0d447f85-2fca-4227-9d64-6de56484c09c
-  - uid: 3580
+      id: b8e258da-075d-40a1-8c6d-77cfc066658b
+  - uid: 7842
     components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
     - type: Transform
       parent: 2
-      pos: -28.5,10.5
-      anchored: True
+      pos: -23.531338,2.4687874
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 4999-5648
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 2584566c-65d3-4f70-bc58-76ff533327b5
+  - uid: 7847
+    components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
+    - type: Transform
+      parent: 2
+      pos: -23.703245,9.224892
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
         1676fbb2-76ca-4e25-b41e-b2d9638477b4:
         - - Output
-          - Close
-        - - Output
           - DoorBolt
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 0B2D-C2FE
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 61DE-F3BC
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 40d2c953-dd17-4176-a915-2d2e9c1f66aa
-  - uid: 3581
+      id: 51ed6208-73ed-40c7-a1a4-bfe2443eb41d
+  - uid: 7848
     components:
+    - type: MetaData
+      name: logic gate (Int. Door Check)
     - type: Transform
       parent: 2
-      pos: -28.5,8.5
-      anchored: True
+      pos: -23.666342,7.323268
+    - type: LogicGate
+      stateB: High
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
         7d34a2ea-e9b4-49f8-820f-9ec24123af2a:
         - - Output
           - DoorBolt
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 18FE-8D99
+    - type: Label
+      currentLabel: Int. Door Check
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 992f76ca-5c0b-4f47-b90c-8e2f2dfb183e
+- proto: LogicGateNand
+  entities:
+  - uid: 2629
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: 12.521396,-47.678635
+    - type: DeviceLinkSource
+      linkedPorts:
+        19648bd5-c1c9-4c36-9837-79d6bf5d09ac:
+        - - Output
+          - InputA
+        00a4027b-2fe0-4874-a498-9399bdec4f4a:
         - - Output
           - Close
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 31A5-18AD
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 21C4-2DCA
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 4d0e11e6-0b1d-487e-8fb7-1d6b071c8566
-  - uid: 3689
+      id: a39f7295-e926-4208-8660-3fa04ad27172
+  - uid: 2669
     components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
     - type: Transform
       parent: 2
-      pos: -28.5,0.5
-      anchored: True
+      pos: 4.3947134,38.558956
     - type: DeviceLinkSource
       linkedPorts:
-        f687b4c6-ad43-43c7-a710-a0f0dfdc70b7:
+        de486972-60df-40f9-b0ca-1959fa9259f6:
         - - Output
-          - DoorBolt
+          - InputA
+        677a4869-12f4-460c-9654-39f9e75f605a:
         - - Output
           - Close
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 06E9-A8DA
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 459D-7616
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 9aa5418e-0fb0-4dc8-8390-c23d9c2f2c0e
-  - uid: 7034
+      id: 6e88b5bd-b944-44f2-bb3a-48f40d55892a
+  - uid: 2758
     components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
     - type: Transform
       parent: 2
-      pos: 46.5,15.5
-      anchored: True
+      pos: -17.546928,-4.5208864
     - type: DeviceLinkSource
       linkedPorts:
-        83d38cdb-b127-4094-8a98-291ee2352d7a:
+        dc2788a4-a63c-49bf-b36b-254e17db0053:
         - - Output
-          - Close
-        - - Output
-          - DoorBolt
-    - type: DeviceNetwork
-      receiveFrequency: 1280
-      address: 799B-A1E1
-    - type: Physics
-      canCollide: False
-      bodyType: Static
-    - type: PersistentIdentifier
-      id: fd59f470-35cd-45fb-bc89-5f8cea0818fc
-  - uid: 7035
-    components:
-    - type: Transform
-      parent: 2
-      pos: -20.5,14.5
-      anchored: True
-    - type: DeviceLinkSource
-      linkedPorts:
-        b6d5a3bd-d8d2-4a0d-bb47-23fec34d1d23:
-        - - Output
-          - DoorBolt
+          - InputA
+        3bf9c752-c618-4f4f-bc21-030086363ac6:
         - - Output
           - Close
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 5B57-62F2
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 7716-9973
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 13b3edd9-9811-4f2a-b06e-11071e146910
-  - uid: 7036
+      id: f66602fe-307f-47e5-8586-4b6cb67633cf
+  - uid: 2760
     components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
     - type: Transform
       parent: 2
-      pos: -20.5,17.5
-      anchored: True
+      pos: -17.473816,-5.382432
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
+        dc2788a4-a63c-49bf-b36b-254e17db0053:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 0822-1568
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: e1d53630-2471-4e8f-9840-6db45edd2568
+  - uid: 2921
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -18.46572,17.586828
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        c296b06d-fb39-42e7-a03f-c2bab0684832:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 73EB-1C97
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 0bf9918f-15e7-453a-b562-714871033e26
+  - uid: 3129
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: 45.486168,12.49501
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        db804014-3d8d-4f16-922b-590c869b2e69:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 5F68-BB2E
+    - type: PersistentIdentifier
+      id: 1ef229c9-54fa-49e0-9345-9583206bbe70
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+  - uid: 3192
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -18.519495,18.562237
+    - type: DeviceLinkSource
+      linkedPorts:
+        c296b06d-fb39-42e7-a03f-c2bab0684832:
+        - - Output
+          - InputA
         889af5ae-3129-441d-bba5-4d256fc13eff:
         - - Output
           - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 4FFF-5621
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 0704dad0-178a-420b-b4c2-a8922bfbe05e
+  - uid: 3194
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -18.41974,14.525023
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        f696c2ea-c38f-42e0-b859-e7f120383871:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 4C5F-4B52
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 04540ecb-35df-43c1-b3ca-198cf09577c0
+  - uid: 3195
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -18.455603,15.543513
+    - type: DeviceLinkSource
+      linkedPorts:
+        f696c2ea-c38f-42e0-b859-e7f120383871:
+        - - Output
+          - InputA
+        b6d5a3bd-d8d2-4a0d-bb47-23fec34d1d23:
         - - Output
           - DoorBolt
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 53F3-18B8
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 7CF6-FEB1
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: e1a517bd-ced3-4ed5-bfcf-58c1d186613e
-  - uid: 7600
+      id: 458e666f-9e05-47da-954d-8687b532fa5f
+  - uid: 3580
     components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
     - type: Transform
       parent: 2
-      pos: 7.5,38.5
-      anchored: True
+      pos: 4.4378195,37.517742
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
-        677a4869-12f4-460c-9654-39f9e75f605a:
+        de486972-60df-40f9-b0ca-1959fa9259f6:
         - - Output
-          - DoorBolt
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 7C86-1548
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 3274471a-5567-4c65-be41-e96692a6e9b3
+  - uid: 5749
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: 30.342184,-15.577705
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        ed6475ea-8684-4b5d-bd96-0653dd73b96a:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 3FF3-E7C5
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: bd45d2a4-593c-4a8b-b46c-308492c28cde
+  - uid: 7646
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: 45.48043,13.61607
+    - type: DeviceLinkSource
+      linkedPorts:
+        db804014-3d8d-4f16-922b-590c869b2e69:
+        - - Output
+          - InputA
+        83d38cdb-b127-4094-8a98-291ee2352d7a:
         - - Output
           - Close
     - type: DeviceNetwork
       receiveFrequency: 1280
-      address: 7DCE-72D2
-    - type: Physics
-      canCollide: False
-      bodyType: Static
+      address: 311A-7C5D
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
     - type: PersistentIdentifier
-      id: 67b5c81f-214d-410e-8ee2-da70a2a8266e
+      id: bb8cc74b-18dd-4db6-8bc5-528add2215f1
+  - uid: 7807
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: 30.459017,-17.400602
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        f60978bd-46fa-4dde-880e-604489b076c2:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 1569-D937
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 0ce5b4ed-0985-4a55-b14d-7271a8f8c769
+  - uid: 7814
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: 30.468468,-16.48781
+    - type: DeviceLinkSource
+      linkedPorts:
+        c1a31110-deae-4146-820f-93ce9fc11980:
+        - - Output
+          - Close
+        f60978bd-46fa-4dde-880e-604489b076c2:
+        - - Output
+          - InputA
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 1667-4A29
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: dd1b45c4-fe9b-427e-9d2b-924abeef580d
+  - uid: 7815
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: 30.275585,-14.783478
+    - type: DeviceLinkSource
+      linkedPorts:
+        04b57f2d-67c1-4c7c-8cbc-eb6381ca4a7b:
+        - - Output
+          - Close
+        ed6475ea-8684-4b5d-bd96-0653dd73b96a:
+        - - Output
+          - InputA
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 3BB0-A0C3
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 587b58ad-df56-464b-a017-017d86bbc217
+  - uid: 7827
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: 12.518008,-48.511837
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        19648bd5-c1c9-4c36-9837-79d6bf5d09ac:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 5972-5E9D
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 851c11d5-c9a7-40d0-9599-fe167bfbaa94
+  - uid: 7832
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -24.543713,-4.658796
+    - type: DeviceLinkSource
+      linkedPorts:
+        7d63655b-cc2e-426b-860f-aaa04c38157d:
+        - - Output
+          - InputA
+        71bfe636-1f34-4ebf-b51b-74b3a12dedf7:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 5D9B-8DF0
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 8165bb84-ff4d-4f38-8dfe-2a66aa6754d6
+  - uid: 7833
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -24.56226,-5.381216
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        7d63655b-cc2e-426b-860f-aaa04c38157d:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 1E29-E4BE
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 3a968b8f-7b2b-46d7-a1f5-7f3cb35d4ef3
+  - uid: 7837
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -24.428535,3.6413481
+    - type: DeviceLinkSource
+      linkedPorts:
+        2584566c-65d3-4f70-bc58-76ff533327b5:
+        - - Output
+          - InputA
+        59c7612c-a281-406f-90da-01ecbb9ca05a:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 758C-A7DE
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 81d8942f-4e0b-42ef-a303-e7c3466dae2b
+  - uid: 7838
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -24.503574,2.5244796
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        2584566c-65d3-4f70-bc58-76ff533327b5:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 021B-715F
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 3bf21e01-dd54-4f01-988e-42f8725373f0
+  - uid: 7839
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -24.524525,1.5075228
+    - type: DeviceLinkSource
+      linkedPorts:
+        b8e258da-075d-40a1-8c6d-77cfc066658b:
+        - - Output
+          - InputA
+        f687b4c6-ad43-43c7-a710-a0f0dfdc70b7:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 34C2-0E48
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 907d7393-d078-443e-b56c-70f8ef62bd11
+  - uid: 7840
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -24.34145,0.5316479
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        b8e258da-075d-40a1-8c6d-77cfc066658b:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 2C5A-D337
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 6b1637d0-44ee-4bf7-a0aa-5e689a4b3b03
+  - uid: 7843
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -24.558132,10.503978
+    - type: DeviceLinkSource
+      linkedPorts:
+        51ed6208-73ed-40c7-a1a4-bfe2443eb41d:
+        - - Output
+          - InputA
+        1676fbb2-76ca-4e25-b41e-b2d9638477b4:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 4DA0-33C9
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: d1e82f96-39cf-472d-8d00-034ea00e0b2f
+  - uid: 7844
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -24.53519,9.572665
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        51ed6208-73ed-40c7-a1a4-bfe2443eb41d:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 773B-228B
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 0d9921ea-198c-4d7b-b081-664b66a9716d
+  - uid: 7845
+    components:
+    - type: MetaData
+      name: logic gate (If Ext. NOT Docked)
+    - type: Transform
+      parent: 2
+      pos: -24.493423,8.509727
+    - type: DeviceLinkSource
+      linkedPorts:
+        992f76ca-5c0b-4f47-b90c-8e2f2dfb183e:
+        - - Output
+          - InputA
+        7d34a2ea-e9b4-49f8-820f-9ec24123af2a:
+        - - Output
+          - Close
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 52DD-28E4
+    - type: Label
+      currentLabel: If Ext. NOT Docked
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: 4b44b250-5f40-4f0e-bf00-2c8d3c5d3aa5
+  - uid: 7846
+    components:
+    - type: MetaData
+      name: logic gate (If Int. NOT Open)
+    - type: Transform
+      parent: 2
+      pos: -24.45884,7.5647383
+    - type: LogicGate
+      lastOutput: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        992f76ca-5c0b-4f47-b90c-8e2f2dfb183e:
+        - - Output
+          - InputB
+      lastSignals:
+        Output: True
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 6A7A-DEF8
+    - type: Label
+      currentLabel: If Int. NOT Open
+    - type: NameModifier
+      baseName: logic gate
+    - type: PersistentIdentifier
+      id: d8105fc2-4b3f-47c1-9464-0f810df9afd7
 - proto: MachineAnomalyGenerator
   entities:
-  - uid: 2633
+  - uid: 3581
     components:
     - type: Transform
       parent: 2
-      pos: 27.5,27.5
+      pos: 27.5,26.5
+    - type: Wires
+      wireSeed: 474529694
     - type: ContainerContainer
       containers:
         anomaly-capsule: !type:ContainerSlot
           ent: null
           showEnts: False
           occludes: True
-    - type: Wires
-      wireSeed: 1914191749
-    - type: Damageable
-      radiationDamageTypes:
-      - Radiation
-      painDamageGroups:
-      - Brute
-      - Burn
-      healthIcons:
-        Alive: HealthIconFine
-        Critical: HealthIconCritical
-        Dead: HealthIconDead
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
 - proto: MachineAnomalyVessel
   entities:
-  - uid: 826
+  - uid: 2614
     components:
     - type: Transform
       parent: 2
-      pos: 25.5,22.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2458
-    components:
-    - type: Transform
-      parent: 2
-      pos: 25.5,21.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2599
+      pos: 29.5,27.5
+- proto: MachineAPE
+  entities:
+  - uid: 2633
     components:
     - type: Transform
       parent: 2
       pos: 25.5,23.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
+    - type: DeviceNetwork
+      receiveFrequency: 1280
+      address: 658E-C3EB
 - proto: MachineArtifactAnalyzer
   entities:
   - uid: 1383
@@ -56653,6 +57814,24 @@ entities:
     - type: Transform
       parent: 2
       pos: -18.5,22.5
+- proto: MachineRequisitionsConsole
+  entities:
+  - uid: 6175
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 25.5,16.5
+    - type: Wires
+      wireSeed: 764743348
+- proto: MagazineMagnum
+  entities:
+  - uid: 7782
+    components:
+    - type: Transform
+      parent: 4658
+    - type: Physics
+      canCollide: False
 - proto: MaterialCardboard
   entities:
   - uid: 5872
@@ -56660,6 +57839,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -8.349906,22.54223
+- proto: MaterialPhoron1
+  entities:
+  - uid: 7866
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.667242,24.613834
 - proto: MCTNodeMachine
   entities:
   - uid: 3130
@@ -56803,13 +57989,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 35.5,-6.5
-- proto: MedicatedSuture
-  entities:
-  - uid: 6178
-    components:
-    - type: Transform
-      parent: 2
-      pos: 37.3367,4.4385195
 - proto: MedkitBurnFilled
   entities:
   - uid: 7666
@@ -56885,6 +58064,28 @@ entities:
     - type: Transform
       parent: 2
       pos: 37.67957,-8.691765
+- proto: MicroManipulatorStockPart
+  entities:
+  - uid: 7810
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.91833,18.573914
+  - uid: 7811
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.095417,18.625996
+  - uid: 7812
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.30375,18.49058
+  - uid: 7813
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5225,18.698914
 - proto: Mirror
   entities:
   - uid: 2873
@@ -56988,6 +58189,38 @@ entities:
           occludes: False
         back: !type:ContainerSlot
           occludes: False
+- proto: MobPollyParrot
+  entities:
+  - uid: 7820
+    components:
+    - type: Transform
+      parent: 2
+      pos: -10.482587,-32.5264
+    - type: Temperature
+      heatCapacity: 5890.4863
+    - type: ContainerContainer
+      containers:
+        ears: !type:ContainerSlot
+          occludes: False
+        body_organs: !type:Container
+          ents: []
+- proto: MobPossumPoppy
+  entities:
+  - uid: 7822
+    components:
+    - type: Transform
+      parent: 2
+      pos: -6.44092,-32.66182
+    - type: Temperature
+      heatCapacity: 57726.76
+    - type: ContainerContainer
+      containers:
+        mask: !type:ContainerSlot
+          occludes: False
+        suitstorage: !type:ContainerSlot
+          occludes: False
+        body_organs: !type:Container
+          ents: []
 - proto: MonkeyCubeBox
   entities:
   - uid: 2768
@@ -57000,6 +58233,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 33.881332,20.649965
+- proto: MopBucketFull
+  entities:
+  - uid: 7818
+    components:
+    - type: Transform
+      parent: 2
+      pos: 18.5,-26.5
 - proto: MopItem
   entities:
   - uid: 1015
@@ -57007,6 +58247,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -13.453162,1.4650247
+  - uid: 7819
+    components:
+    - type: Transform
+      parent: 2
+      pos: 18.632944,-26.370415
 - proto: Morgue
   entities:
   - uid: 2586
@@ -57124,9 +58369,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 387.8871295
+          startTime: 9.0422137
           length: 1
-          endTime: 388.8871295
+          endTime: 10.0422137
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -57205,6 +58450,16 @@ entities:
     - type: Transform
       parent: 2
       pos: -6.5,-19.5
+  - uid: 7789
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.5,23.5
+  - uid: 7794
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.5,18.5
 - proto: PaperOffice
   entities:
   - uid: 6784
@@ -57225,7 +58480,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 25.7368,18.510166
+      pos: 25.610464,18.54477
   - uid: 4247
     components:
     - type: Transform
@@ -57259,6 +58514,16 @@ entities:
     - type: Transform
       parent: 2
       pos: 9.571676,5.2380295
+  - uid: 7788
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.330439,23.64574
+  - uid: 7868
+    components:
+    - type: Transform
+      parent: 2
+      pos: 28.463156,21.996714
 - proto: PenCap
   entities:
   - uid: 6332
@@ -58749,6 +60014,13 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: PottedPlant19
+  entities:
+  - uid: 6496
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,4.5
 - proto: PottedPlant5
   entities:
   - uid: 7687
@@ -58756,6 +60028,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,17.5
+- proto: PottedPlant7
+  entities:
+  - uid: 7855
+    components:
+    - type: Transform
+      parent: 2
+      pos: 37.5,4.5
 - proto: PowerCellHyper
   entities:
   - uid: 5753
@@ -59748,6 +61027,14 @@ entities:
     - type: DeviceNetwork
       receiveFrequency: 1173
       address: 453E-745E
+  - uid: 6090
+    components:
+    - type: Transform
+      parent: 2
+      pos: 35.5,4.5
+    - type: DeviceNetwork
+      receiveFrequency: 1173
+      address: 35D3-1F81
 - proto: PoweredlightCyan
   entities:
   - uid: 6838
@@ -60104,22 +61391,6 @@ entities:
     - type: DeviceNetwork
       receiveFrequency: 1173
       address: 4BC1-DB13
-  - uid: 1377
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.5,4.5
-    - type: DeviceNetwork
-      receiveFrequency: 1173
-      address: 3CC4-48AA
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 2649
     components:
     - type: Transform
@@ -61250,36 +62521,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-- proto: PuddleBlood
-  entities:
-  - uid: 2758
-    components:
-    - type: Transform
-      parent: 2
-      pos: 28.5,1.5
-    - type: Solution
-      solution:
-        temperature: 293.15
-        maxVol: 7680
-        reagents:
-        - ReagentId: Blood
-          data: []
-          Quantity: 15
-        canReact: True
-    - type: Slippery
-      slipData:
-        superSlippery: False
-        stunTime: 0.5
-        slipFriction: 1
-        requiredSlipSpeed: 5.5
-        launchForwardsMultiplier: 1.5
-        knockdownTime: 1.5
-        autoStand: True
-    - type: StepTrigger
-      requiredTriggeredSpeed: 5.5
-      active: False
-    - type: TileFrictionModifier
-      modifier: 1
 - proto: PuddleBloodSmall
   entities:
   - uid: 7709
@@ -61287,21 +62528,14 @@ entities:
     - type: Transform
       parent: 2
       pos: 9.5,-22.5
-- proto: PuddleVomit
-  entities:
-  - uid: 2866
-    components:
-    - type: Transform
-      parent: 2
-      pos: 11.5,2.5
     - type: Solution
       solution:
         temperature: 293.15
         maxVol: 7680
         reagents:
-        - ReagentId: Vomit
+        - ReagentId: Blood
           data: []
-          Quantity: 1
+          Quantity: 4
         canReact: True
     - type: Slippery
       slipData:
@@ -61513,13 +62747,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -14.5,27.5
-- proto: RegenerativeMesh
-  entities:
-  - uid: 6180
-    components:
-    - type: Transform
-      parent: 2
-      pos: 37.414825,4.6936445
 - proto: ReinforcedPhoronGlassWindow
   entities:
   - uid: 475
@@ -63748,13 +64975,13 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-- proto: Retractor
+- proto: ResearchDisk
   entities:
-  - uid: 6176
+  - uid: 7800
     components:
     - type: Transform
       parent: 2
-      pos: 36.383575,4.4853945
+      pos: 34.04659,15.515428
 - proto: RubberStampQm
   entities:
   - uid: 5869
@@ -63762,20 +64989,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -5.326093,22.388878
-- proto: Saw
-  entities:
-  - uid: 6172
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.52761,4.6375093
-- proto: Scalpel
-  entities:
-  - uid: 6173
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.352325,4.5010195
 - proto: ScrapCanister1
   entities:
   - uid: 4959
@@ -63784,6 +64997,13 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 12.668011,-20.271013
+- proto: ScrapGlass
+  entities:
+  - uid: 2740
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.558823,15.573094
 - proto: ScrapPAI
   entities:
   - uid: 4251
@@ -63833,6 +65053,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.087966,-51.350403
+  - uid: 7836
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.564316,15.493093
 - proto: SheetTitanium
   entities:
   - uid: 5777
@@ -64812,12 +66037,6 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 6151
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 37.5,1.5
   - uid: 6155
     components:
     - type: Transform
@@ -65091,13 +66310,6 @@ entities:
       transmitFrequency: 1621
       receiveFrequency: 1621
       address: SMS-7B3B-829D
-- proto: SoapDeluxe
-  entities:
-  - uid: 6179
-    components:
-    - type: Transform
-      parent: 2
-      pos: 37.571075,4.2666445
 - proto: SodaDispenser
   entities:
   - uid: 1273
@@ -68303,6 +69515,23 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-50.5
+  - uid: 7828
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.5,21.5
+  - uid: 7829
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 21.5,15.5
+  - uid: 7830
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 21.5,16.5
 - proto: StoolBar
   entities:
   - uid: 1227
@@ -69478,53 +70707,11 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 2696
-    components:
-    - type: Transform
-      parent: 2
-      pos: 25.5,16.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2697
-    components:
-    - type: Transform
-      parent: 2
-      pos: 25.5,18.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
   - uid: 2698
     components:
     - type: Transform
       parent: 2
       pos: 25.5,19.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
-  - uid: 2699
-    components:
-    - type: Transform
-      parent: 2
-      pos: 26.5,19.5
     - type: Damageable
       damage:
         types:
@@ -69671,11 +70858,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,-26.5
-  - uid: 5749
-    components:
-    - type: Transform
-      parent: 2
-      pos: 7.5,17.5
   - uid: 5750
     components:
     - type: Transform
@@ -69717,12 +70899,29 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -14.5,22.5
+  - uid: 6137
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 35.5,23.5
   - uid: 6323
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -7.5,-4.5
+  - uid: 7823
+    components:
+    - type: Transform
+      parent: 2
+      pos: 25.5,18.5
+  - uid: 7865
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 34.5,23.5
 - proto: TableCard
   entities:
   - uid: 4930
@@ -69941,66 +71140,12 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
-  - uid: 2665
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 37.5,3.5
   - uid: 2735
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -6.5,22.5
-  - uid: 2736
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 37.5,4.5
-  - uid: 2737
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 35.5,4.5
-  - uid: 2738
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 36.5,4.5
-  - uid: 2739
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 33.5,4.5
-  - uid: 2740
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 34.5,4.5
-  - uid: 2741
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 33.5,3.5
-  - uid: 2742
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 34.5,-0.5
-  - uid: 2743
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 35.5,-0.5
   - uid: 5008
     components:
     - type: Transform
@@ -70291,6 +71436,33 @@ entities:
     - type: Transform
       parent: 2
       pos: 3.5,-38.5
+- proto: TableReinforcedGlass
+  entities:
+  - uid: 6174
+    components:
+    - type: Transform
+      parent: 2
+      pos: 37.5,4.5
+  - uid: 7857
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,4.5
+  - uid: 7858
+    components:
+    - type: Transform
+      parent: 2
+      pos: 37.5,3.5
+  - uid: 7860
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,3.5
+  - uid: 7863
+    components:
+    - type: Transform
+      parent: 2
+      pos: 28.5,1.5
 - proto: TableStone
   entities:
   - uid: 1263
@@ -70730,6 +71902,18 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 9.5,-18.5
+  - uid: 7785
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.5,23.5
+- proto: TechnologyDiskT1
+  entities:
+  - uid: 7799
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.06029,18.559263
 - proto: TegCenter
   entities:
   - uid: 5772
@@ -70902,6 +72086,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -17.417633,1.5645797
+- proto: TreasureHardDiskDrive
+  entities:
+  - uid: 6176
+    components:
+    - type: Transform
+      parent: 2
+      pos: 34.932003,18.505013
 - proto: TwoWayLever
   entities:
   - uid: 1137
@@ -71029,6 +72220,15 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: VendingMachineAtmosDrobe
+  entities:
+  - uid: 7817
+    components:
+    - type: Transform
+      parent: 2
+      pos: 24.5,-22.5
+    - type: Wires
+      wireSeed: 1547053154
 - proto: VendingMachineBooze
   entities:
   - uid: 1268
@@ -71047,6 +72247,15 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: VendingMachineCargoDrobe
+  entities:
+  - uid: 7816
+    components:
+    - type: Transform
+      parent: 2
+      pos: -16.5,25.5
+    - type: Wires
+      wireSeed: 337087697
 - proto: VendingMachineChang
   entities:
   - uid: 4235
@@ -71289,6 +72498,15 @@ entities:
           Blunt: 0
           Slash: 0
           Piercing: 0
+- proto: VendingMachineLawDrobe
+  entities:
+  - uid: 2742
+    components:
+    - type: Transform
+      parent: 2
+      pos: 14.5,27.5
+    - type: Wires
+      wireSeed: 1721805962
 - proto: VendingMachineMedical
   entities:
   - uid: 2782
@@ -71350,6 +72568,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 36.59591,-9.342743
+- proto: VendingMachineRobotics
+  entities:
+  - uid: 2566
+    components:
+    - type: Transform
+      parent: 2
+      pos: 36.5,21.5
+    - type: Wires
+      wireSeed: 1615659232
 - proto: VendingMachineSalvage
   entities:
   - uid: 5939
@@ -71359,6 +72586,15 @@ entities:
       pos: -14.5,25.5
     - type: Wires
       wireSeed: 1441708163
+- proto: VendingMachineSciDrobe
+  entities:
+  - uid: 7824
+    components:
+    - type: Transform
+      parent: 2
+      pos: 30.5,20.5
+    - type: Wires
+      wireSeed: 1712069783
 - proto: VendingMachineSec
   entities:
   - uid: 4733
@@ -71368,6 +72604,15 @@ entities:
       pos: 5.5,19.5
     - type: Wires
       wireSeed: 1647725201
+- proto: VendingMachineSecDrobe
+  entities:
+  - uid: 6178
+    components:
+    - type: Transform
+      parent: 2
+      pos: 7.5,17.5
+    - type: Wires
+      wireSeed: 1809451983
 - proto: VendingMachineSeeds
   entities:
   - uid: 4871
@@ -71404,6 +72649,13 @@ entities:
       wireSeed: 1106839396
 - proto: VendingMachineSnackOrange
   entities:
+  - uid: 2670
+    components:
+    - type: Transform
+      parent: 2
+      pos: 32.5,23.5
+    - type: Wires
+      wireSeed: 1173553032
   - uid: 3477
     components:
     - type: Transform
@@ -71420,6 +72672,15 @@ entities:
       pos: -23.5,-3.5
     - type: Wires
       wireSeed: 1956369578
+- proto: VendingMachineSpaceUp
+  entities:
+  - uid: 2697
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.5,23.5
+    - type: Wires
+      wireSeed: 1582687751
 - proto: VendingMachineTankDispenserEngineering
   entities:
   - uid: 5643
@@ -88123,6 +89384,14 @@ entities:
     - type: Transform
       parent: 2
       pos: -18.453297,21.468002
+- proto: WeaponPistolN1984
+  entities:
+  - uid: 7781
+    components:
+    - type: Transform
+      parent: 4658
+    - type: Physics
+      canCollide: False
 - proto: WeaponRevolverInspector
   entities:
   - uid: 6232
@@ -88361,7 +89630,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -54146.145
+      secondsUntilStateChange: -59719.953
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -88391,7 +89660,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -54146.742
+      secondsUntilStateChange: -59720.55
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -88421,7 +89690,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -54148.81
+      secondsUntilStateChange: -59722.617
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -88451,7 +89720,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -54148.176
+      secondsUntilStateChange: -59721.984
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
