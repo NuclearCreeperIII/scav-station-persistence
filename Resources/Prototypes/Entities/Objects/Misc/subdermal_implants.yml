@@ -164,8 +164,6 @@
         type: JobNetBoundUserInterface
   - type: JobNet
   - type: RumorGetter
-    nextRumor: 14400 #Scav
-    rumorCooldownLength: 14400 #Scav: Increased rumor time to 4 hours
 
 - type: entity
   parent: [ BaseSubdermalImplant, StorePresetUplink ]

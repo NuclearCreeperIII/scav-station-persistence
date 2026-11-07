@@ -760,7 +760,7 @@ public sealed partial class RumorsSystem : EntitySystem
             }
             if (!_playerManager.TryGetSessionByEntity(player.Value, out var session)) continue;
             if (_afkManager.IsAfk(session)) continue;
-            comp.NextRumor -= TimeSpan.FromSeconds(frameTime);
+            //comp.NextRumor -= TimeSpan.FromSeconds(frameTime); //Scav: Disabled automatic countdown for now
             if (comp.NextRumor <= TimeSpan.Zero)
             {
                 comp.NextRumor = comp.RumorCooldownLength;
@@ -868,7 +868,7 @@ public sealed partial class RumorsSystem : EntitySystem
         if (newRumor != null)
         {
             comp.Rumors.Add(newRumor);
-            NotifyPlayer(player, $"Your job network reports you have recieved a new rumor: {newRumor.Name}", comp.NewRumorSound);
+            NotifyPlayer(player, $"You have received a new contract: {newRumor.Name}", comp.NewRumorSound);
         }
         _jobnet.UpdateUserInterface(player, comp.Owner);
     }
