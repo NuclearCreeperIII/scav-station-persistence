@@ -498,7 +498,6 @@
   parent: GasDualPortVentPumpAuto
   id: GasDualPortVentPump
   name: signal dual-port air vent
-  prefix: controllable
   description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning. It can be linked to logic gates and other signal generators.
   components:
   - type: GasVentPump
