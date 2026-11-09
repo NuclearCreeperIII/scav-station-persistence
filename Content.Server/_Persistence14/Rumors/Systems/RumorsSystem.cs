@@ -52,6 +52,8 @@ using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using System.Linq;
 using System.Numerics;
+using Content.Shared._Scav.Rumors.Components;
+using Content.Shared.Interaction.Events;
 
 #pragma warning disable IDE1006 // Naming Styles
 namespace Content.Shared._Persistence14.Rumors.Systems;
@@ -108,7 +110,7 @@ public sealed partial class RumorsSystem : EntitySystem
         SubscribeLocalEvent<DeliveryComponent, DeliveryUnlockedEvent>(OnDeliveryUnlock);
         SubscribeLocalEvent<RumorAnomalyStabilizeTargetComponent, AnomalyStabilityChangedEvent>(OnAnomalyStabilityChange);
         SubscribeLocalEvent<AtmosExposedComponent, ComponentStartup>(OnAtmosExposedStart);
-
+        SubscribeLocalEvent<GiveRepOnUseComponent, UseInHandEvent>(OnRepGiverUsed);
     }
 
     private void OnAtmosExposedStart(Entity<AtmosExposedComponent> ent, ref ComponentStartup args)
@@ -758,7 +760,7 @@ public sealed partial class RumorsSystem : EntitySystem
             }
             if (!_playerManager.TryGetSessionByEntity(player.Value, out var session)) continue;
             if (_afkManager.IsAfk(session)) continue;
-            comp.NextRumor -= TimeSpan.FromSeconds(frameTime);
+            //comp.NextRumor -= TimeSpan.FromSeconds(frameTime); //Scav: Disabled automatic countdown for now
             if (comp.NextRumor <= TimeSpan.Zero)
             {
                 comp.NextRumor = comp.RumorCooldownLength;
@@ -866,7 +868,7 @@ public sealed partial class RumorsSystem : EntitySystem
         if (newRumor != null)
         {
             comp.Rumors.Add(newRumor);
-            NotifyPlayer(player, $"Your job network reports you have recieved a new rumor: {newRumor.Name}", comp.NewRumorSound);
+            NotifyPlayer(player, $"You have received a new contract: {newRumor.Name}", comp.NewRumorSound);
         }
         _jobnet.UpdateUserInterface(player, comp.Owner);
     }
@@ -1458,5 +1460,22 @@ public sealed partial class RumorsSystem : EntitySystem
                 }
             }
         }
+    }
+
+    private void OnRepGiverUsed(Entity<GiveRepOnUseComponent> ent, ref UseInHandEvent args)
+    {
+        if (_crewMeta.MetaRecords == null) return;
+        var name = Name(args.User);
+        _crewMeta.MetaRecords.TryGetRecord(name, out var metaRecord);
+        if (metaRecord == null) return;
+
+        var amount = ent.Comp.ReputationReward;
+        var faction = ent.Comp.Faction;
+
+        metaRecord.MetaFactionReputations.TryGetValue(faction, out var currentRep);
+        metaRecord.MetaFactionReputations[faction] = Math.Max(currentRep + amount, 0);
+
+        NotifyPlayer(args.User, $"\nYou have gained {amount} reputation with {faction}");
+        QueueDel(ent);
     }
 }

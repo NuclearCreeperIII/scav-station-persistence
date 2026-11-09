@@ -1,0 +1,5 @@
+- type: trait
+  id: OriginIvenmoth
+  name: scav-background-origin-ivenmoth
+  description: scav-background-origin-ivenmoth-desc
+  selectable: false

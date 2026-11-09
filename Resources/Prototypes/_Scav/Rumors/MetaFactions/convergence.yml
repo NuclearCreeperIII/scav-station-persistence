@@ -1,0 +1,68 @@
+- type: metaFaction
+  id: Convergence
+  name: The Cult of Convergence
+  description: "Whispers in the dark."
+  rumors:
+    - PrayBasicEvil
+  color: Purple
+  levels:
+    Convergence2: 150
+    Convergence3: 500
+    Convergence4: 1000
+  order: 4
+
+- type: metaFactionLevel
+  id: Convergence2
+  name: Inductee
+  rumorRewards:
+    #- ConvergenceUpgradeModule
+    - TradeGood
+    #- ConvergenceCodexFragment
+    - GrandLottery
+    - RitualDagger
+  rewardsToOffer: 2
+
+- type: metaFactionLevel
+  id: Convergence3
+  name: Cultist
+  rumorRewards:
+    #- ConvergenceUpgradeModule
+    - TradeGood
+    #- ConvergenceCodexFragment
+    - ShadowKnifeKit
+    - ChemKit
+    - VestArmor
+    - VestArmorElite
+    - HyperzineKit
+    - Cobra
+    - FreedomImplanter
+    - Jaws
+    - KnuckleDusters
+    - IchorCigarettes
+    - RaidSuit
+    - CombatToolbox
+    - CultRobes
+    - PrecursorFakeMindshield
+  rewardsToOffer: 4
+
+- type: metaFactionLevel
+  id: Convergence4
+  name: Priest
+  rumorRewards:
+    #- ConvergenceUpgradeModule
+    - TradeGood
+    #- ConvergenceCodexFragment
+    - EDagger
+    - VoiceMaskImplanter
+    - StorageImplanter
+    - ESword
+    - EShield
+    - ECrossbow
+    - RadioJammer
+    - Chameleon
+    - BedsheetCult
+    - CultArmor
+    - ArmBlade
+  rewardsToOffer: 2
+
+

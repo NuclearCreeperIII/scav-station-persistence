@@ -59,12 +59,12 @@
     - OriginZenith
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorRed
-  reputationGains:
-    Zenith: 200
-  extraFactionRumors:
-    Zenith: 1
-  codexEntries:
-    - Zenith101
+  # reputationGains: # Scav: removed the metafaction, so these need to be disabled
+  #   Zenith: 200
+  # extraFactionRumors:
+  #   Zenith: 1
+  # codexEntries:
+  #   - Zenith101
 
 - type: backgroundEffect
   id: TraitOriginGreen
@@ -73,12 +73,12 @@
     - OriginGreen
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorGreen
-  reputationGains:
-    Green: 200
-  extraFactionRumors:
-    Green: 1
-  codexEntries:
-    - Green101
+  # reputationGains:
+  #   Green: 200
+  # extraFactionRumors:
+  #   Green: 1
+  # codexEntries:
+  #   - Green101
 
 - type: backgroundEffect
   id: TraitOriginMarine
@@ -87,12 +87,12 @@
     - OriginMarine
   equipment:
     jumpsuit: ClothingUniformJumpsuitBattleDressUniformWoodlandTShirt
-  reputationGains:
-    Marines: 200
-  extraFactionRumors:
-    Marines: 1
-  codexEntries:
-    - Marine101
+  # reputationGains:
+  #   Marines: 200
+  # extraFactionRumors:
+  #   Marines: 1
+  # codexEntries:
+  #   - Marine101
 
 
 - type: backgroundEffect
@@ -102,12 +102,12 @@
     - OriginPrecursor
   equipment:
     jumpsuit: ClothingUniformGenericTurtleNeckAndJeans
-  reputationGains:
-    Precursor: 200
-  extraFactionRumors:
-    Precursor: 1
-  codexEntries:
-    - Precursor101
+  # reputationGains:
+  #   Precursor: 200
+  # extraFactionRumors:
+  #   Precursor: 1
+  # codexEntries:
+  #   - Precursor101
 
 - type: backgroundEffect
   id: TraitOriginShadow
@@ -116,12 +116,12 @@
     - OriginShadow
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBlack
-  reputationGains:
-    Shadow: 200
-  extraFactionRumors:
-    Shadow: 1
-  codexEntries:
-    - Shadow101
+  # reputationGains:
+  #   Shadow: 200
+  # extraFactionRumors:
+  #   Shadow: 1
+  # codexEntries:
+  #   - Shadow101
 
 
 - type: backgroundEffect

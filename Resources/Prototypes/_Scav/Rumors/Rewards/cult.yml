@@ -1,0 +1,97 @@
+- type: rumorReward
+  id: RitualDagger
+  name: Ritual Dagger
+  description: "A dagger with a strange glint. Its edge cuts the very soul of its victims, producing scars that will never fade."
+  price: 1000
+  product: RitualDagger
+  icon:
+    sprite: Objects/Weapons/Melee/cult_dagger.rsi
+    state: icon
+
+- type: rumorReward
+  id: CultRobes
+  name: Robes
+  description: "Robes marking the wearer as a member of the Cult of Convergence."
+  price: 500
+  product: LockerSyndicateCultRobesFilled
+  icon:
+    sprite: Clothing/Head/Hoods/cult.rsi
+    state: icon
+
+- type: rumorReward
+  id: CultArmor
+  name: Acolyte Armor
+  description: "Armor masking the wearer's face. Suitable for more aggressive operations."
+  price: 2000
+  product: LockerSyndicateCultArmorFilled
+  icon:
+    sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+    state: icon
+
+- type: rumorReward
+  id: BedsheetCult
+  name: Cult Blanket
+  description: "Blanket displaying your loyalty to the Cult."
+  price: 1000
+  product: BedsheetCult
+  icon:
+    sprite: Objects/Misc/bedsheets.rsi
+    state: sheetcult
+
+- type: rumorReward
+  id: EldritchBlade
+  name: Eldritch Blade
+  description: "A sword humming with unholy energy."
+  price: 8000
+  product: EldritchBlade
+  icon:
+    sprite: Objects/Weapons/Melee/cult_blade.rsi
+    state: icon
+
+- type: rumorReward
+  id: UnholyHalberd
+  name: Unholy Halberd
+  description: "A great poleaxe."
+  price: 10000
+  product: UnholyHalberd
+  icon:
+    sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+    state: icon
+
+- type: rumorReward
+  id: ArmBlade
+  name: Arm Blade
+  description: "Call upon the power within you."
+  price: 15000
+  product: ArmBlade
+  icon:
+    sprite: Objects/Weapons/Melee/armblade.rsi
+    state: icon
+
+- type: entity
+  id: LockerSyndicateCultRobesFilled
+  suffix: Cult Robes
+  parent: LockerSyndicatePersonal
+  description: A locker containing cult equipment.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - id: ClothingHeadHatHoodCulthood
+        - id: ClothingOuterRobesCult
+        - id: ClothingShoesCult
+
+- type: entity
+  id: LockerSyndicateCultArmorFilled
+  suffix: Acolyte Armor
+  parent: LockerSyndicatePersonal
+  description: A locker containing cult equipment.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - id: ClothingHeadHelmetCult
+        - id: ClothingOuterArmorCult
+        - id: ClothingShoesCult
