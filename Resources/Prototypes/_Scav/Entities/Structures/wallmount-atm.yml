@@ -1,0 +1,73 @@
+- type: entity
+  parent: [ BaseWallmountMachine, StructureHealthMachineWeak ]
+  id: WallmountBankAtmBase
+  abstract: true
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: _NF/Structures/Machines/atm/wall_atm.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: icon
+    - map: ["computerLayerScreen"]
+      state: unshaded
+  - type: ActivatableUIRequiresPower
+  - type: ActivatableUI
+    singleUser: true
+    key: enum.SurveillanceCameraMonitorUiKey.Key
+  - type: UserInterface
+    interfaces:
+        enum.SurveillanceCameraMonitorUiKey.Key:
+          type: SurveillanceCameraMonitorBoundUserInterface
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+      bank-ATM-cashSlot: !type:ContainerSlot
+
+
+- type: entity
+  id: WallmountBankATMDeposit
+  parent: WallmountBankAtmBase
+  suffix: Wallmount
+  name: bank ATM
+  description: Used to deposit and withdraw funds from a personal bank account.
+  components:
+  - type: BankATM
+    cashSlot:
+      name: bank-ATM-cashSlot
+      insertSound: /Audio/Machines/scanning.ogg
+      ejectSound: /Audio/Machines/tray_eject.ogg
+      ejectOnBreak: true
+      swap: false
+      whitelist:
+        components:
+          - Cash
+  - type: ActivatableUI
+    key: enum.BankATMMenuUiKey.ATM
+  - type: UserInterface
+    interfaces:
+      enum.BankATMMenuUiKey.ATM:
+        type: BankATMMenuBoundUserInterface
+
+- type: entity
+  id: WallmountBankATMWithdraw
+  parent: WallmountBankAtmBase
+  suffix: Wallmount
+  name: withdraw-only bank ATM
+  description: Used to withdraw funds from a personal bank account, unable to deposit.
+  components:
+  - type: BankATM
+    cashSlot:
+      name: bank-ATM-cashSlot
+      insertSound: /Audio/Machines/scanning.ogg
+      ejectSound: /Audio/Machines/tray_eject.ogg
+      ejectOnBreak: true
+      swap: false
+      locked: true
+  - type: ActivatableUI
+    key: enum.BankATMMenuUiKey.ATM
+  - type: UserInterface
+    interfaces:
+      enum.BankATMMenuUiKey.ATM:
+        type: BankATMMenuBoundUserInterface
