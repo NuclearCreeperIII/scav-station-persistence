@@ -1,7 +1,7 @@
 <div class="header" align="center">  
 <img src="persistence-logo.webp" alt="Persistence Logo" width="200"></div>
 
-Space Station 14 Persistence is a fork of Space Station 14.
+A fork of Space Station 14 Persistence, itself a fork of Space Station 14.
 
 ## Links
 
