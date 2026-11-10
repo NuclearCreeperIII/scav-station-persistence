@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Original sprites from ScavStation, https://github.com/ScavStation/ScavStation/commit/2509a19293fe33d44b1f4670ad07a22b8129c099",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "icon-open"
+    },
+    {
+      "name": "equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-yinglet",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-OUTERCLOTHING-yinglet",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "open-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "open-inhand-right",
+      "directions": 4
+    }
+  ]
+}

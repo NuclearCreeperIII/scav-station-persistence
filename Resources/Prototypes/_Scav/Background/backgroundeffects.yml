@@ -4,7 +4,7 @@
   traits:
     - OriginIvenmoth
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorRed
+    outerClothing: ClothingOuterCoatTradehouse
   reputationGains:
     Ivenmoth: 200
   extraFactionRumors:
