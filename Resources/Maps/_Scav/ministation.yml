@@ -4,17 +4,14 @@ meta:
   engineVersion: 293.0.1
   forkId: ""
   forkVersion: ""
-  time: 11/06/2026 02:31:29
-  entityCount: 7992
+  time: 11/11/2026 00:06:51
+  entityCount: 7995
 maps:
 - 1
 grids:
 - 2
 orphans: []
 nullspace:
-- 7969
-- 7970
-- 7971
 - 7972
 - 7973
 - 7974
@@ -36,6 +33,9 @@ nullspace:
 - 7990
 - 7991
 - 7992
+- 7993
+- 7994
+- 7995
 tilemap:
   8: Space
   5: FloorAstroGrass
@@ -1077,9 +1077,6 @@ entities:
     - type: RadiationGridResistance
     - type: ChunkContainer
       chunkEntities:
-      - 7969
-      - 7970
-      - 7971
       - 7972
       - 7973
       - 7974
@@ -1101,6 +1098,9 @@ entities:
       - 7990
       - 7991
       - 7992
+      - 7993
+      - 7994
+      - 7995
     - type: NavMap
 - proto: AirAlarm
   entities:
@@ -2432,7 +2432,7 @@ entities:
       pos: -0.5,35.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -58123.74
+      secondsUntilStateChange: -58267.934
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3621,7 +3621,7 @@ entities:
       pos: 2.5,-0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -61406.637
+      secondsUntilStateChange: -61550.832
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3745,7 +3745,7 @@ entities:
       pos: 2.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -61406.203
+      secondsUntilStateChange: -61550.4
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3829,7 +3829,7 @@ entities:
       pos: -1.5,-2.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -61405.367
+      secondsUntilStateChange: -61549.562
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -3855,7 +3855,7 @@ entities:
       pos: -1.5,-0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -61405.668
+      secondsUntilStateChange: -61549.863
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4088,7 +4088,7 @@ entities:
       pos: 2.5,-27.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -72535.63
+      secondsUntilStateChange: -72679.83
     - type: Wires
       wireSeed: 1961505938
     - type: DeviceNetwork
@@ -4114,7 +4114,7 @@ entities:
       pos: -7.5,0.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -67803.96
+      secondsUntilStateChange: -67948.16
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -4280,7 +4280,7 @@ entities:
       pos: -3.5,24.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -60884.1
+      secondsUntilStateChange: -61028.297
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -31346,7 +31346,7 @@ entities:
           Piercing: 0
 - proto: ChunkEntity
   entities:
-  - uid: 7969
+  - uid: 7972
     components:
     - type: ChunkEntity
       root: 2
@@ -31395,7 +31395,7 @@ entities:
             2: -19,-6
             16: -25,-6
             17: -24,-6
-  - uid: 7970
+  - uid: 7973
     components:
     - type: ChunkEntity
       root: 2
@@ -31428,7 +31428,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             16: -16,-3
-  - uid: 7971
+  - uid: 7974
     components:
     - type: ChunkEntity
       root: 2
@@ -31467,7 +31467,7 @@ entities:
             8: -19,14
             9: -19,15
             15: -25,1
-  - uid: 7972
+  - uid: 7975
     components:
     - type: ChunkEntity
       root: 2
@@ -31542,7 +31542,7 @@ entities:
           decals:
             2: 29,16
             3: 28,16
-  - uid: 7973
+  - uid: 7976
     components:
     - type: ChunkEntity
       root: 2
@@ -31651,7 +31651,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             9: 26,13
-  - uid: 7974
+  - uid: 7977
     components:
     - type: ChunkEntity
       root: 2
@@ -31728,7 +31728,7 @@ entities:
             4: 42,9
             5: 43,9
             6: 44,9
-  - uid: 7975
+  - uid: 7978
     components:
     - type: ChunkEntity
       root: 2
@@ -31748,7 +31748,7 @@ entities:
             color: '#724276FF'
           decals:
             1: 32,20
-  - uid: 7976
+  - uid: 7979
     components:
     - type: ChunkEntity
       root: 2
@@ -31836,7 +31836,7 @@ entities:
             23: 8,7
             24: 9,7
             25: 10,7
-  - uid: 7977
+  - uid: 7980
     components:
     - type: ChunkEntity
       root: 2
@@ -31883,7 +31883,7 @@ entities:
           decals:
             8: 7,21
             9: 9,21
-  - uid: 7978
+  - uid: 7981
     components:
     - type: ChunkEntity
       root: 2
@@ -32001,7 +32001,7 @@ entities:
             17: 22,-2
             18: 22,-4
             19: 22,-3
-  - uid: 7979
+  - uid: 7982
     components:
     - type: ChunkEntity
       root: 2
@@ -32023,7 +32023,7 @@ entities:
           decals:
             2: 33,-7
             3: 33,-5
-  - uid: 7980
+  - uid: 7983
     components:
     - type: ChunkEntity
       root: 2
@@ -32058,7 +32058,7 @@ entities:
             3: 10,-30
             4: 12,-30
             5: 13,-30
-  - uid: 7981
+  - uid: 7984
     components:
     - type: ChunkEntity
       root: 2
@@ -32110,7 +32110,7 @@ entities:
             2: -9,-31
             3: -8,-31
             8: -5,-30
-  - uid: 7982
+  - uid: 7985
     components:
     - type: ChunkEntity
       root: 2
@@ -32137,7 +32137,7 @@ entities:
             color: '#EFB34196'
           decals:
             0: -1,-34
-  - uid: 7983
+  - uid: 7986
     components:
     - type: ChunkEntity
       root: 2
@@ -32174,7 +32174,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             6: 10,-48
-  - uid: 7984
+  - uid: 7987
     components:
     - type: ChunkEntity
       root: 2
@@ -32190,7 +32190,7 @@ entities:
           decals:
             0: -1,-50
             1: -2,-50
-  - uid: 7985
+  - uid: 7988
     components:
     - type: ChunkEntity
       root: 2
@@ -32211,7 +32211,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             2: 10,-49
-  - uid: 7986
+  - uid: 7989
     components:
     - type: ChunkEntity
       root: 2
@@ -32246,7 +32246,7 @@ entities:
           decals:
             0: -19,16
             1: -19,17
-  - uid: 7987
+  - uid: 7990
     components:
     - type: ChunkEntity
       root: 2
@@ -32305,7 +32305,7 @@ entities:
             angle: -1.5707963267948966 rad
           decals:
             18: -3,23
-  - uid: 7988
+  - uid: 7991
     components:
     - type: ChunkEntity
       root: 2
@@ -32323,7 +32323,7 @@ entities:
             1: -16,15
             2: -16,13
             3: -15,13
-  - uid: 7989
+  - uid: 7992
     components:
     - type: ChunkEntity
       root: 2
@@ -32359,7 +32359,7 @@ entities:
           decals:
             0: 5,38
             1: 8,38
-  - uid: 7990
+  - uid: 7993
     components:
     - type: ChunkEntity
       root: 2
@@ -32406,7 +32406,7 @@ entities:
             0: 7,-1
             1: 8,-1
             2: 9,-1
-  - uid: 7991
+  - uid: 7994
     components:
     - type: ChunkEntity
       root: 2
@@ -32420,7 +32420,7 @@ entities:
             color: '#52B4E996'
           decals:
             0: 30,-17
-  - uid: 7992
+  - uid: 7995
     components:
     - type: ChunkEntity
       root: 2
@@ -33314,24 +33314,6 @@ entities:
       pos: -3.5,-30.5
     - type: Wires
       wireSeed: 1930873302
-- proto: ComputerBankATM
-  entities:
-  - uid: 2840
-    components:
-    - type: Transform
-      parent: 2
-      pos: 6.5,-4.5
-    - type: Wires
-      wireSeed: 623648206
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
 - proto: ComputerBookPublisher
   entities:
   - uid: 4934
@@ -37214,9 +37196,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 21.6422247
+          startTime: 20.0444836
           length: 1
-          endTime: 22.6422247
+          endTime: 21.0444836
 - proto: Dresser
   entities:
   - uid: 1179
@@ -37338,9 +37320,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 21.6422247
+          startTime: 20.0444836
           length: 1
-          endTime: 22.6422247
+          endTime: 21.0444836
 - proto: ExosuitFabricator
   entities:
   - uid: 2457
@@ -56342,9 +56324,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 21.6422247
+          startTime: 20.0444836
           length: 1
-          endTime: 22.6422247
+          endTime: 21.0444836
 - proto: JetpackBlueFilled
   entities:
   - uid: 6444
@@ -56355,9 +56337,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 21.6422247
+          startTime: 20.0444836
           length: 1
-          endTime: 22.6422247
+          endTime: 21.0444836
   - uid: 6445
     components:
     - type: Transform
@@ -56366,9 +56348,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 21.6422247
+          startTime: 20.0444836
           length: 1
-          endTime: 22.6422247
+          endTime: 21.0444836
 - proto: JetpackMiniFilled
   entities:
   - uid: 7550
@@ -56378,9 +56360,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 2063.8227935
+          startTime: 20.0444836
           length: 1
-          endTime: 2064.8227935
+          endTime: 21.0444836
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -58488,20 +58470,11 @@ entities:
       pos: 0.5,-35.5
 - proto: NoticeBoard
   entities:
-  - uid: 2843
+  - uid: 7971
     components:
     - type: Transform
       parent: 2
-      pos: 5.5,-3.5
-    - type: Damageable
-      damage:
-        types:
-          Heat: 0
-          Shock: 0
-          Structural: 0
-          Blunt: 0
-          Slash: 0
-          Piercing: 0
+      pos: 4.5,-3.5
 - proto: NuclearBombKeg
   entities:
   - uid: 4242
@@ -58556,9 +58529,9 @@ entities:
     - type: UseDelay
       delays:
         gasTank:
-          startTime: 2058.0135606
+          startTime: 20.0444836
           length: 1
-          endTime: 2059.0135606
+          endTime: 21.0444836
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -72973,6 +72946,28 @@ entities:
       pos: 16.5,9.5
     - type: Wires
       wireSeed: 618231430
+- proto: WallmountBankATMDeposit
+  entities:
+  - uid: 2840
+    components:
+    - type: Transform
+      parent: 2
+      pos: 5.5,-3.5
+  - uid: 2843
+    components:
+    - type: Transform
+      parent: 2
+      pos: -8.5,23.5
+  - uid: 7969
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,24.5
+  - uid: 7970
+    components:
+    - type: Transform
+      parent: 2
+      pos: -14.5,0.5
 - proto: WallmountTelescreen
   entities:
   - uid: 6426
@@ -89835,7 +89830,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -62057.375
+      secondsUntilStateChange: -62201.57
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -89865,7 +89860,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -62057.973
+      secondsUntilStateChange: -62202.168
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -89895,7 +89890,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -62060.04
+      secondsUntilStateChange: -62204.234
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
@@ -89925,7 +89920,7 @@ entities:
         DoorStatus: True
     - type: Door
       state: Opening
-      secondsUntilStateChange: -62059.406
+      secondsUntilStateChange: -62203.6
     - type: Airlock
       autoClose: False
     - type: PersistentIdentifier
