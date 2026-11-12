@@ -1073,6 +1073,8 @@ entities:
         chunkSize: 4
       atmosDevicesOrder: []
     - type: GasTileOverlay
+    - type: BecomesStation
+      id: Ministation
     - type: ExplosionAirtightGrid
     - type: RadiationGridResistance
     - type: ChunkContainer
