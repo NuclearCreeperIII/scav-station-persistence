@@ -1,0 +1,4 @@
+- type: guideEntry
+  id: CharacterBackground
+  name: guide-entry-character-background
+  text: "/ServerInfo/_Scav/Guidebook/CharacterBackground.xml"

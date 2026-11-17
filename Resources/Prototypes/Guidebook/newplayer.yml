@@ -25,6 +25,7 @@
   text: "/ServerInfo/Guidebook/NewPlayer/CharacterCreation.xml"
   children:
   - YourFirstCharacter
+  - CharacterBackground # Scav
   - Species
 
 - type: guideEntry
