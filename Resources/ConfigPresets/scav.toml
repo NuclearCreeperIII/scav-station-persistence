@@ -1,0 +1,63 @@
+[game]
+soft_max_players = 30
+autosaveenabled = true
+autosaveinterval = 60
+panic_bunker.show_reason = true
+panic_bunker.custom_reason = "The server is not accepting new connections at this time."
+
+[server]
+rules_file = "ScavRuleset"
+id = "ScavStation14"
+
+[infolinks]
+bug_report = "https://github.com/Scav-Station-14/scav-station-persistence/issues"
+discord    = "https://discord.gg/ePQ5WHHfUd"
+github     = "https://github.com/Scav-Station-14/scav-station-persistence"
+
+[ooc]
+enable_during_round = true
+
+[looc]
+enabled_dead = true
+enabled_crit = true
+
+[ic]
+flavor_text = true
+
+[lore]
+year_offset = 288
+
+[tips]
+enabled = false
+
+[atmos]
+max_explosion_range = 4
+space_wind = true
+
+[admin]
+admins_count_in_playercount = true
+new_player_threshold = 600
+alert.min_players_sharing_connection = 2
+
+[afk]
+automatic_checks = false
+
+[worldgen]
+enabled = true
+
+[status]
+enabled = true
+
+[auth]
+mode = 1
+
+[funkystation.reagent_fire]
+puddle_damage_multiplier = 0.1
+
+[funkystation.cpr]
+rib_crack_damage = 20
+rib_crack_pump = 10
+
+[funkystation.defib]
+revive_chance = 0.7
+adrenaline_cost = 1

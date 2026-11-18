@@ -1,0 +1,6 @@
+- type: guideEntry
+  id: ScavRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 10 # After NewPlayer
+  text: "/ServerInfo/_Scav/Guidebook/ServerRules/Rules.xml"
