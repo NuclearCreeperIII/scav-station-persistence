@@ -133,11 +133,11 @@
   id: Precious
   name: lathe-category-precious-tile
 
-- type: latheCategory #Persistence
+- type: latheCategory #Scav
   id: Brass
   name: lathe-category-plastic-tile
 
-- type: latheCategory #Persistence
+- type: latheCategory #Scav
   id: Meat
   name: lathe-category-plastic-tile
 
