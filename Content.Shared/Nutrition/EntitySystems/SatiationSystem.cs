@@ -2,6 +2,7 @@ using Content.Shared.Alert;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Nutrition.Prototypes;
 using Content.Shared.Rejuvenate;
+using Content.Shared.SSDIndicator;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -33,6 +34,9 @@ public abstract partial class SatiationSystem : EntitySystem
         var query = EntityQueryEnumerator<SatiationComponent>();
         while (query.MoveNext(out var uid, out var component))
         {
+            if (TryComp<SSDIndicatorComponent>(uid, out var ssdComp) && ssdComp.IsSSD)
+                continue;
+
             var entity = new Entity<SatiationComponent>(uid, component);
             foreach (var satiation in component.Satiations.Values)
             {
