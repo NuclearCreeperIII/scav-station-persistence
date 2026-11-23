@@ -34,7 +34,7 @@ public abstract partial class SatiationSystem : EntitySystem
         var query = EntityQueryEnumerator<SatiationComponent>();
         while (query.MoveNext(out var uid, out var component))
         {
-            if (TryComp<SSDIndicatorComponent>(uid, out var ssdComp) && ssdComp.IsSSD)
+            if (TryComp<SSDIndicatorComponent>(uid, out var ssdComp) && ssdComp.IsStasis)
                 continue;
 
             var entity = new Entity<SatiationComponent>(uid, component);

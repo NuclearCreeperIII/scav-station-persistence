@@ -24,8 +24,8 @@ using Content.Shared.Mobs.Systems;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
-using Content.Shared._Funkystation.Cpr;
-using Content.Shared.SSDIndicator; // funky
+using Content.Shared._Funkystation.Cpr; // funky
+using Content.Shared.SSDIndicator;
 
 namespace Content.Server.Body.Systems;
 
@@ -88,7 +88,7 @@ public sealed partial class RespiratorSystem : EntitySystem
             if (_mobState.IsDead(uid))
                 continue;
 
-            if (TryComp<SSDIndicatorComponent>(uid, out var ssdComp) && ssdComp.IsSSD)
+            if (TryComp<SSDIndicatorComponent>(uid, out var ssdComp) && ssdComp.IsStasis)
                 continue;
 
             UpdateSaturation(uid, -(float)respirator.UpdateInterval.TotalSeconds, respirator);

@@ -49,15 +49,37 @@ public sealed partial class SSDIndicatorComponent : Component
     public TimeSpan FallAsleepTime = TimeSpan.Zero;
 
     /// <summary>
-    /// The next time this component will be updated.
+    /// The next time the sleep counter will be updated.
     /// </summary>
     [AutoNetworkedField, AutoPausedField]
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
-    public TimeSpan NextUpdate = TimeSpan.Zero;
+    public TimeSpan NextSleepUpdate = TimeSpan.Zero;
+
+    /// <summary>
+    /// The next time the stasis counter will be updated.
+    /// </summary>
+    [AutoNetworkedField, AutoPausedField]
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    public TimeSpan NextStasisUpdate = TimeSpan.Zero;
 
     /// <summary>
     /// The time between updates checking if the entity should be force slept.
     /// </summary>
     [DataField]
     public TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
+
+    /// <summary>
+    /// Scav: Whether the entity is in SSD Stasis
+    /// </summary>
+    [AutoNetworkedField]
+    [DataField]
+    public bool IsStasis = false;
+
+    /// <summary>
+    /// The time at which the entity will enter stasis, if <see cref="CCVars.ICSSDStasis"/> is true.
+    /// </summary>
+    [AutoNetworkedField, AutoPausedField]
+    [Access(typeof(SSDIndicatorSystem))]
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    public TimeSpan StasisTime = TimeSpan.Zero;
 }

@@ -90,4 +90,17 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<float> ICSSDSleepTime =
         CVarDef.Create("ic.ssd_sleep_time", 600f, CVar.SERVER);
+
+    /// <summary>
+    ///     SSD Characters will stop respirating and consuming satiation
+    /// </summary>
+    public static readonly CVarDef<bool> ICSSDStasis =
+        CVarDef.Create("ic.ssd_stasis", true, CVar.SERVER);
+
+    /// <summary>
+    ///     Time between character getting SSD status and entering SSD stasis
+    ///     Won't work without ICSSDStasis
+    /// </summary>
+    public static readonly CVarDef<float> ICSSDStasisTime =
+        CVarDef.Create("ic.ssd_stasis_time", 1200f, CVar.SERVER);
 }
