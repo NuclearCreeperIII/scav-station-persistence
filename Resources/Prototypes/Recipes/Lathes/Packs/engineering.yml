@@ -33,6 +33,7 @@
   - PlantBag
   - ClothingShoesSkates
   - Floodlight
+  - FireAxe # Scav: add fire axe
 
 - type: latheRecipePack
   id: AtmosStatic

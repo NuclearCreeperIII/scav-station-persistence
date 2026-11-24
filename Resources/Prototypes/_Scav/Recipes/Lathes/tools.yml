@@ -1,0 +1,7 @@
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: FireAxe
+  result: FireAxe
+  materials:
+    Wood: 500
+    Plasteel: 500
