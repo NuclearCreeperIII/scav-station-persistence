@@ -196,6 +196,9 @@
         Quantity: 9
       - ReagentId: Carbon
         Quantity: 1
+  - type: FloorTile
+    outputs:
+    - PlatingPlasteel
 
 - type: entity
   parent: SheetPlasteel
@@ -261,6 +264,9 @@
       reagents:
       - ReagentId: Titanium
         Quantity: 10
+  - type: FloorTile
+    outputs:
+    - PlatingTitanium
 
 - type: entity
   parent: SheetTitanium
@@ -327,6 +333,9 @@
       - ReagentId: Aluminium
         Quantity: 10
       canReact: false
+  - type: FloorTile
+    outputs:
+    - PlatingAluminium
 
 - type: entity
   parent: SheetAluminium
@@ -394,6 +403,9 @@
         Quantity: 6.7
       - ReagentId: Tin
         Quantity: 3.3
+  - type: FloorTile
+    outputs:
+    - PlatingBronze
 
 - type: entity
   parent: SheetBronze

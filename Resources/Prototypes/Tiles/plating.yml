@@ -11,6 +11,7 @@
   baseWhitelist:
     - TrainLattice
     - ReinforcedLattice
+  itemDrop: SheetSteel1
 
 - type: tile
   id: Plating
@@ -66,6 +67,45 @@
   parent: BasePlating
   name: tiles-brass-plating
   sprite: /Textures/Tiles/Misc/clockwork/clockwork_floor.png
+  itemDrop: SheetBrass1
+
+# Scav: Material Plating
+- type: tile
+  id: PlatingAluminium
+  parent: BasePlating
+  name: tiles-aluminum-plating
+  sprite: /Textures/Tiles/plating.png
+  itemDrop: SheetAluminium1
+
+- type: tile
+  id: PlatingBronze
+  parent: BasePlating
+  name: tiles-bronze-plating
+  sprite: /Textures/Tiles/plating.png
+  itemDrop: SheetBronze1
+
+- type: tile
+  id: PlatingPlasteel
+  parent: BasePlating
+  name: tiles-plasteel-plating
+  sprite: /Textures/Tiles/hull_reinforced.png
+  itemDrop: SheetPlasteel1
+
+- type: tile
+  id: PlatingTitanium
+  parent: BasePlating
+  name: tiles-titanium-plating
+  sprite: /Textures/Tiles/plating.png
+  itemDrop: SheetTitanium1
+
+- type: tile
+  id: PlatingCardboard
+  parent: BasePlating
+  name: tiles-cardboard-plating
+  sprite: /Textures/Tiles/plating.png
+  itemDrop: MaterialCardboard1
+
+# End Scav
 
 - type: tile
   id: PlatingSnow

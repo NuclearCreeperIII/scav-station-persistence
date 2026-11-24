@@ -9,9 +9,6 @@
     state: carpet-red
   - type: Item
     heldPrefix: carpet-red
-  - type: FloorTile
-    outputs:
-      - Plating
   - type: Stack
     stackType: FloorCarpetRed
   - type: SpawnAfterInteract #Nuke after convert to FloorTile
