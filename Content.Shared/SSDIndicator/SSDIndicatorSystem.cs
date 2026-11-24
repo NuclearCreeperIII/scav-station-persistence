@@ -24,6 +24,9 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
     private bool _icSsdSleep;
     private float _icSsdSleepTime;
 
+    private bool _icSsdStasis;
+    private float _icSsdStasisTime;
+
     public override void Initialize()
     {
         SubscribeLocalEvent<SSDIndicatorComponent, PlayerAttachedEvent>(OnPlayerAttached);
@@ -34,6 +37,8 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
 
         _cfg.OnValueChanged(CCVars.ICSSDSleep, obj => _icSsdSleep = obj, true);
         _cfg.OnValueChanged(CCVars.ICSSDSleepTime, obj => _icSsdSleepTime = obj, true);
+        _cfg.OnValueChanged(CCVars.ICSSDStasis, obj => _icSsdStasis = obj, true);
+        _cfg.OnValueChanged(CCVars.ICSSDStasisTime, obj => _icSsdStasisTime = obj, true);
     }
 
     private void OnPlayerAttached(EntityUid uid, SSDIndicatorComponent component, PlayerAttachedEvent args)
@@ -52,11 +57,21 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
     // Prevents mapped mobs to go to sleep immediately
     private void OnMapInit(EntityUid uid, SSDIndicatorComponent component, MapInitEvent args)
     {
-        if (!_icSsdSleep || !component.IsSSD)
+        if ((!_icSsdSleep && !_icSsdStasis) || !component.IsSSD)
             return;
 
-        component.FallAsleepTime = _timing.CurTime + TimeSpan.FromSeconds(_icSsdSleepTime);
-        component.NextUpdate = _timing.CurTime + component.UpdateInterval;
+        if (_icSsdSleep)
+        {
+            component.FallAsleepTime = _timing.CurTime + TimeSpan.FromSeconds(_icSsdSleepTime);
+            component.NextSleepUpdate = _timing.CurTime + component.UpdateInterval;
+        }
+
+        if (_icSsdStasis)
+        {
+            component.StasisTime = _timing.CurTime + TimeSpan.FromSeconds(_icSsdStasisTime);
+            component.NextStasisUpdate = _timing.CurTime + component.UpdateInterval;
+        }
+
         Dirty(uid, component);
     }
 
@@ -64,7 +79,7 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        if (!_icSsdSleep)
+        if (!_icSsdSleep && !_icSsdStasis)
             return;
 
         var curTime = _timing.CurTime;
@@ -73,15 +88,22 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
         while (query.MoveNext(out var uid, out var ssd))
         {
             // Forces the entity to sleep when the time has come
-            if (!ssd.IsSSD
-                || ssd.NextUpdate > curTime
-                || ssd.FallAsleepTime > curTime
-                || TerminatingOrDeleted(uid))
+            if (!ssd.IsSSD || TerminatingOrDeleted(uid))
                 continue;
 
-            _statusEffects.TryUpdateStatusEffectDuration(uid, StatusEffectSSDSleeping);
-            ssd.NextUpdate += ssd.UpdateInterval;
-            Dirty(uid, ssd);
+            if (_icSsdSleep && ssd.NextSleepUpdate <= curTime && ssd.FallAsleepTime <= curTime)
+            {
+                _statusEffects.TryUpdateStatusEffectDuration(uid, StatusEffectSSDSleeping);
+                ssd.NextSleepUpdate += ssd.UpdateInterval;
+                Dirty(uid, ssd);
+            }
+
+            if (_icSsdStasis && ssd.NextStasisUpdate < curTime && ssd.StasisTime <= curTime && !ssd.ManualSSD)
+            {
+                ssd.NextStasisUpdate += ssd.UpdateInterval;
+                ssd.IsStasis = true;
+                Dirty(uid, ssd);
+            }
         }
     }
 
@@ -98,6 +120,11 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
         if (_icSsdSleep)
         {
             component.FallAsleepTime = _timing.CurTime + TimeSpan.FromSeconds(_icSsdSleepTime);
+        }
+
+        if (_icSsdStasis && !component.ManualSSD)
+        {
+            component.StasisTime = _timing.CurTime + TimeSpan.FromSeconds(_icSsdStasisTime);
         }
 
         Dirty(uid, component);
@@ -117,6 +144,12 @@ public sealed partial class SSDIndicatorSystem : EntitySystem
         {
             component.FallAsleepTime = TimeSpan.Zero;
             _statusEffects.TryRemoveStatusEffect(uid, StatusEffectSSDSleeping);
+        }
+
+        if (_icSsdStasis)
+        {
+            component.StasisTime = TimeSpan.Zero;
+            component.IsStasis = false;
         }
 
         Dirty(uid, component);
