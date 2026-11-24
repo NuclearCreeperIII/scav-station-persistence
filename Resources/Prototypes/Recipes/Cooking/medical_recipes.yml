@@ -14,9 +14,7 @@
   time: 10
   group: Medicinal
   solids:
-    FoodPoppy: 1
-    Brutepack: 1
-    MaterialCloth1: 1
+    MaterialCloth1: 2
   reagents:
     TranexamicAcid: 20
     Cryptobiolin: 20
@@ -28,9 +26,7 @@
   time: 10
   group: Medicinal
   solids:
-    FoodAloe: 1
-    Ointment: 1
-    MaterialCloth1: 1
+    MaterialCloth1: 2
   reagents:
     Sigynate: 20
     Dermaline: 20
