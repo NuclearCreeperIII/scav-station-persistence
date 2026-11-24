@@ -82,9 +82,9 @@
       - FloorDark
   - type: Stack
     stackType: FloorTileDark
-  - type: Construction
-    graph: TileDark
-    node: darktile
+  # - type: Construction
+  #   graph: TileDark
+  #   node: darktile
 
 - type: entity
   name: dark steel diagonal mini tile
@@ -243,9 +243,9 @@
       - FloorSteel
   - type: Stack
     stackType: FloorTileSteel
-  - type: Construction
-    graph: TileSteel
-    node: steeltile
+  # - type: Construction
+  #   graph: TileSteel
+  #   node: steeltile
 
 - type: entity
   name: offset steel tile
@@ -404,9 +404,9 @@
       - FloorWhite
   - type: Stack
     stackType: FloorTileWhite
-  - type: Construction
-    graph: TileWhite
-    node: whitetile
+  # - type: Construction
+  #   graph: TileWhite
+  #   node: whitetile
 
 - type: entity
   name: offset white steel tile
@@ -583,9 +583,9 @@
       - FloorWood
   - type: Stack
     stackType: FloorTileWood
-  - type: Construction
-    graph: TileWood
-    node: woodtile
+  # - type: Construction
+  #   graph: TileWood
+  #   node: woodtile
 
 - type: entity
   name: techmaint floor
@@ -663,9 +663,9 @@
       - FloorBrassFilled
   - type: Stack
     stackType: FloorTileBrassFilled
-  - type: Construction
-    graph: TilesBrass
-    node: filledPlate
+  # - type: Construction
+  #   graph: TilesBrass
+  #   node: filledPlate
 
 - type: entity
   name: smooth brass plate
@@ -1470,9 +1470,9 @@
     - FloorFlesh
   - type: Stack
     stackType: FloorTileFlesh
-  - type: Construction
-    graph: TileFlesh
-    node: fleshTile
+  # - type: Construction
+  #   graph: TileFlesh
+  #   node: fleshTile
 
 - type: entity
   name: steel maint floor
@@ -1729,9 +1729,9 @@
       - FloorWoodLarge
   - type: Stack
     stackType: FloorTileWoodLarge
-  - type: Construction
-    graph: TileWoodLarge
-    node: woodtilelarge
+  # - type: Construction
+  #   graph: TileWoodLarge
+  #   node: woodtilelarge
 
 # Marble
 
