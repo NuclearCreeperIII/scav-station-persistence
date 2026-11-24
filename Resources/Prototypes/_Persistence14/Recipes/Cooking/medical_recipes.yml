@@ -8,7 +8,7 @@
   time: 10
   group: Medicinal
   solids:
-    SheetPlastic1: 1
+    SheetGlass1: 1
     IngotSilver1: 2
   reagents:
     Arcryox: 20
