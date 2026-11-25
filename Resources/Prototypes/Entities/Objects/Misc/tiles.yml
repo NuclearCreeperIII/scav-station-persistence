@@ -681,9 +681,9 @@
       - FloorBrassReebe
   - type: Stack
     stackType: FloorTileBrassReebe
-  - type: Construction
-    graph: TilesBrass
-    node: reebe
+  # - type: Construction
+  #   graph: TilesBrass
+  #   node: reebe
 
 - type: entity
   name: dirty tile
