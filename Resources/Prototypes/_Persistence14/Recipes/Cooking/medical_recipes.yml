@@ -8,10 +8,7 @@
   time: 10
   group: Medicinal
   solids:
-    FoodPoppy: 1
-    Brutepack: 1
-    FoodAloe: 1
-    Ointment: 1
-    IngotSilver1: 1
+    SheetGlass1: 1
+    IngotSilver1: 2
   reagents:
     Arcryox: 20
