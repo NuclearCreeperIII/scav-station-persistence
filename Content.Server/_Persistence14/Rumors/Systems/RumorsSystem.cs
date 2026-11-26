@@ -54,6 +54,8 @@ using System.Linq;
 using System.Numerics;
 using Content.Shared._Scav.Rumors.Components;
 using Content.Shared.Interaction.Events;
+using Content.Shared.Mobs.Systems;
+using Content.Shared.Tag;
 
 #pragma warning disable IDE1006 // Naming Styles
 namespace Content.Shared._Persistence14.Rumors.Systems;
@@ -93,7 +95,12 @@ public sealed partial class RumorsSystem : EntitySystem
     [Dependency] private ServerGlobalSoundSystem _globalsound = default!;
     [Dependency] private EntityTableSystem _entityTable = default!;
     [Dependency] private DeliverySystem _delivery = default!;
+    [Dependency] private TagSystem _tag = default!;
+    [Dependency] private MobStateSystem _mobState = default!;
+
     private List<(Entity<TransformComponent> Entity, EntityUid MapUid, Vector2 LocalPosition)> _detachEnts = new();
+
+    private static readonly ProtoId<TagPrototype> NoGibTag = "NoGib";
     public override void Initialize()
     {
         base.Initialize();
@@ -163,7 +170,7 @@ public sealed partial class RumorsSystem : EntitySystem
                         var implant = Transform(uid);
                         player = implant.ParentUid;
                         if (player == null) return;
-                        if(player == args.User)
+                        if (player == args.User)
                         {
                             CompleteRumor((uid, comp), player.Value, rumor);
                         }
@@ -265,6 +272,7 @@ public sealed partial class RumorsSystem : EntitySystem
         var grid = xform.GridUid;
         if (grid == null) return;
         if (!TryComp<PersistentIdentifierComponent>(grid, out var gridPID) || gridPID == null) return;
+        if (_mobState.IsDead(ent.Owner)) return;
         if (!TryComp<DamageableComponent>(ent, out var damageable) || damageable == null) return;
         if (_damageable.TryGetDamageGreaterThan((ent.Owner, damageable), 10, out _))
         {
@@ -368,6 +376,8 @@ public sealed partial class RumorsSystem : EntitySystem
             }
 
         }
+
+        _tag.RemoveTag(ent.Owner, NoGibTag);
     }
 
     private void OnPrayed(Entity<PrayableComponent> ent, ref PrayedEvent args)
@@ -462,7 +472,7 @@ public sealed partial class RumorsSystem : EntitySystem
     private void OnBatteryChargeChanged(Entity<RumorPowerTargetComponent> ent, ref ChargeChangedEvent args)
     {
         if (!TryComp<BatteryComponent>(ent, out var batteryComp)) return;
-        if (args.CurrentCharge == batteryComp.MaxCharge)
+        if (args.CurrentCharge >= batteryComp.MaxCharge-10)
         {
             var query = EntityQueryEnumerator<RumorGetterComponent>();
             if (!TryComp<PersistentIdentifierComponent>(ent, out var pid)) return;
@@ -488,7 +498,7 @@ public sealed partial class RumorsSystem : EntitySystem
                                 if (target == pid.Id) continue;
                                 if (!_pid.TryResolveId(target, out var sister)) return;
                                 if (!TryComp<BatteryComponent>(sister, out var sisterBattery) || sisterBattery == null) return;
-                                if (sisterBattery.LastCharge < sisterBattery.MaxCharge)
+                                if (sisterBattery.LastCharge < sisterBattery.MaxCharge-10)
                                 {
                                     pass = false;
                                     break;
@@ -646,7 +656,7 @@ public sealed partial class RumorsSystem : EntitySystem
             if (bank == null) return;
             if (bank.TryGetAccount(name, out var account) && account != null)
             {
-                account.Balance += rumor.CashReward;
+                account.Balance += finalCashReward;
             }
 
         }
@@ -858,19 +868,25 @@ public sealed partial class RumorsSystem : EntitySystem
         }
         return null;
     }
-    public void AssignRumor(RumorGetterComponent comp, EntityUid player, ProtoId<MetaFactionPrototype>? factionId = null, ActiveRumor? newRumor = null)
+    public bool AssignRumor(RumorGetterComponent comp, EntityUid player, ProtoId<MetaFactionPrototype>? factionId = null, ActiveRumor? newRumor = null)
     {
-        if (newRumor == null)
+        if (newRumor is null)
         {
             newRumor = GenerateRumor(player, comp, player, factionId);
-            if (newRumor != null) newRumor.OriginalOwner = Name(player);
+            if (newRumor is not null)
+                newRumor.OriginalOwner = Name(player);
         }
-        if (newRumor != null)
+        if (newRumor is null) // If we are **still** null
         {
-            comp.Rumors.Add(newRumor);
-            NotifyPlayer(player, $"You have received a new contract: {newRumor.Name}", comp.NewRumorSound);
+            // Bad. Very Bad. Failed to generate rumor.
+            return false;
         }
+        if (string.IsNullOrEmpty(newRumor.OriginalOwner))
+            newRumor.OriginalOwner = Name(player);
+        comp.Rumors.Add(newRumor);
+        NotifyPlayer(player, $"You have received a new contract: {newRumor.Name}", comp.NewRumorSound);
         _jobnet.UpdateUserInterface(player, comp.Owner);
+        return true;
     }
 
     public void NotifyPlayer(EntityUid player, string msg, SoundSpecifier? sound = null)
@@ -910,71 +926,75 @@ public sealed partial class RumorsSystem : EntitySystem
 
     private ActiveRumor? GenerateRumor(EntityUid uid, RumorGetterComponent comp, EntityUid player, ProtoId<MetaFactionPrototype>? factionId = null)
     {
-        if (comp.Rumors.Count >= 4) return null;
+        if (comp.Rumors.Count >= comp.MaxRumorCount)
+            return null; // Too many rumors already
+
         var metaFactions = _protoMan.EnumeratePrototypes<MetaFactionPrototype>().ToList();
-        if (_crewMeta.MetaRecords == null) return null;
-        _crewMeta.MetaRecords.TryGetRecord(Name(uid), out var metaRecord);
-        if (metaRecord == null) return null;
-        MetaFactionPrototype? chosenFaction = null;
-        if (factionId != null)
-        {
-            chosenFaction = _protoMan.Index<MetaFactionPrototype>(factionId.Value);
-        }
+
+        if (_crewMeta.MetaRecords == null ||
+            !_crewMeta.MetaRecords.TryGetRecord(Name(uid), out var metaRecordNullable) ||
+            metaRecordNullable is not { } metaRecord)
+            return null; // Unable to get crew data.
+
+        MetaFactionPrototype? chosenFaction;
+        if (factionId is not null) // Use faction if provided
+            chosenFaction = _protoMan.Index(factionId.Value);
         else
         {
+            // Generate the eligable factions. Higher level factions get more entries in the random list.
             List<MetaFactionPrototype> eligibleFactions = new List<MetaFactionPrototype>();
             foreach (var faction in metaFactions)
             {
-                int reputation = 0;
-                if (metaRecord.MetaFactionReputations.TryGetValue(faction.ID, out var rep))
-                {
-                    reputation = rep;
-                }
-                var levels = faction.Levels;
-                eligibleFactions.Add(faction);
-                foreach (var level in levels)
-                {
-                    if (reputation >= level.Value)
-                    {
-                        eligibleFactions.Add(faction);
-                        break;
-                    }
-                }
-            }
-            chosenFaction = eligibleFactions[_random.Next(eligibleFactions.Count)];
-        }
-        if (chosenFaction == null) return null;
-        int chosenReputation = 0;
-        if (metaRecord.MetaFactionReputations.TryGetValue(chosenFaction.ID, out var rep2))
-        {
-            chosenReputation = rep2;
-        }
-        var chosenLevels = chosenFaction.Levels;
-        List<ProtoId<RumorPrototype>> eligibleRumors = new List<ProtoId<RumorPrototype>>();
-        eligibleRumors.AddRange(chosenFaction.Rumors);
-        foreach (var kv in chosenLevels)
-        {
-            if (chosenReputation >= kv.Value)
-            {
-                var levelProto = _protoMan.Index<MetaFactionLevelPrototype>(kv.Key);
-                eligibleRumors.AddRange(levelProto.Rumors);
-            }
-        }
-        if (eligibleRumors.Count == 0) return null;
-        var chosenRumor = eligibleRumors[_random.Next(eligibleRumors.Count)];
+                int reputation = metaRecord.MetaFactionReputations.GetValueOrDefault(faction.ID);
 
-        return RealizeRumor(chosenRumor, chosenFaction, player);
+                var levels = faction.Levels;
+                eligibleFactions.Add(faction); // Every faction gets one entry
+                foreach (var level in levels)
+                    if (reputation >= level.Value)
+                        eligibleFactions.Add(faction); // Plus one entry per level we meet the rep for
+            }
+
+            chosenFaction = _random.Pick(eligibleFactions);
+        }
+
+        if (chosenFaction == null)
+            return null; // No valid faction selected
+
+        int chosenReputation = metaRecord.MetaFactionReputations.GetValueOrDefault(chosenFaction.ID);
+        var chosenLevels = chosenFaction.Levels;
+        List<ProtoId<RumorPrototype>> eligibleRumors = [.. chosenFaction.Rumors]; // Add baseline rumors
+        foreach (var (level, minRep) in chosenLevels)
+        {
+            if (chosenReputation >= minRep)
+            {
+                var levelProto = _protoMan.Index<MetaFactionLevelPrototype>(level);
+                eligibleRumors.AddRange(levelProto.Rumors); // Add rumors for this level.
+            }
+        }
+
+        while (eligibleRumors.Count > 0)
+        {
+            var realizedRumor = RealizeRumor(_random.PickAndTake(eligibleRumors), chosenFaction, player);
+            if (realizedRumor is null)
+                continue;
+
+            return realizedRumor;
+        }
+        return null; // Sad day, no available rumors.
     }
 
     private ActiveRumor? RealizeRumor(ProtoId<RumorPrototype> chosenRumor, MetaFactionPrototype chosenFaction, EntityUid player)
     {
-        if (_crewMeta.MetaRecords == null) return null;
+        if (_crewMeta.MetaRecords == null)
+            return null; // No available meta records
+
         ActiveRumor final = new(chosenRumor);
         RumorPrototype rumorProto = _protoMan.Index<RumorPrototype>(chosenRumor);
+
         final.CompletionType = rumorProto.CompletionType;
         final.Name = $"{rumorProto.Name} ({chosenFaction.Name})";
         final.Faction = chosenFaction.ID;
-        if (rumorProto.EventGrids.Count > 0)
+        if (rumorProto.EventGrids.Count > 0) // Are we spawning any grids?
         {
             final.ShouldSpawn = true;
             final.EventGrids.AddRange(_random.GetItems(rumorProto.EventGrids, rumorProto.GridsToSpawn));
@@ -982,8 +1002,10 @@ public sealed partial class RumorsSystem : EntitySystem
             final.SpawnDistance = rumorProto.SpawnDistance;
             final.GridsToSpawn = rumorProto.GridsToSpawn;
         }
+
         if (rumorProto.CompletionType == CompletionType.Rescue)
         {
+            // Select a random station and assign target to that station.
             var query = EntityQueryEnumerator<TradeStationComponent>();
             List<EntityUid> possibleTrade = new();
             while (query.MoveNext(out var uid, out var comp))
@@ -993,12 +1015,16 @@ public sealed partial class RumorsSystem : EntitySystem
                     possibleTrade.Add(uid);
                 }
             }
-            if (possibleTrade.Count < 1) return null;
+            if (possibleTrade.Count < 1)
+                return null;
+
             var chosenUID = _random.Pick(possibleTrade);
             final.TargetStation = _pid.EnsureId(chosenUID);
         }
+
         if (rumorProto.PossibleBounties.Count > 0)
         {
+            // Generate a bounty on a random station.
             var chosenBounty = _random.Pick(rumorProto.PossibleBounties);
             var query = EntityQueryEnumerator<TradeStationComponent>();
             List<TradeStationComponent> possibleTrade = new();
@@ -1009,13 +1035,15 @@ public sealed partial class RumorsSystem : EntitySystem
                     possibleTrade.Add(comp);
                 }
             }
-            if (possibleTrade.Count < 1) return null;
+            if (possibleTrade.Count < 1)
+                return null;
             var chosenUID = _random.Pick(possibleTrade).UID;
             _nameIdentifier.GenerateUniqueNameModifier("Bounty", out var randomVal);
             var newBounty = new CargoBountyData(_protoMan.Index<CargoBountyPrototype>(chosenBounty), randomVal);
             newBounty.TradeStationUID = chosenUID;
             final.Bounty = newBounty;
         }
+
         if (rumorProto.CompletionType == CompletionType.Eat || rumorProto.CompletionType == CompletionType.Drink)
         {
             var possibleFlavorGroups = rumorProto.PossibleFlavors
@@ -1030,7 +1058,8 @@ public sealed partial class RumorsSystem : EntitySystem
                 if (comp.Tag != rumorProto.TargetTag) continue;
                 possibleService.Add(uid);
             }
-            if (possibleService.Count < 1) return null;
+            if (possibleService.Count < 1)
+                return null;
             final.Targets.Add(_pid.EnsureId(_random.Pick(possibleService)));
         }
         if (rumorProto.CompletionType == CompletionType.Pray)
@@ -1042,7 +1071,8 @@ public sealed partial class RumorsSystem : EntitySystem
                 if (comp.Tag != rumorProto.TargetTag) continue;
                 possibleService.Add(uid);
             }
-            if (possibleService.Count < 1) return null;
+            if (possibleService.Count < 1)
+                return null;
             final.Targets.Add(_pid.EnsureId(_random.Pick(possibleService)));
         }
         if (rumorProto.CompletionType == CompletionType.ReceiveMail)
@@ -1066,7 +1096,10 @@ public sealed partial class RumorsSystem : EntitySystem
             var coords = pallet.PalletXform.Coordinates;
             var spawns = _entityTable.GetSpawns(rumorProto.Table).ToList();
             var delivery = SpawnAtPosition(_random.Pick(spawns), coords);
-            if (!TryComp<DeliveryComponent>(delivery, out var deliveryComp) || deliveryComp == null) return null;
+
+            if (!TryComp<DeliveryComponent>(delivery, out var deliveryComp) || deliveryComp == null)
+                return null;
+
             _delivery.SetupDelivery((delivery, deliveryComp), player);
             final.Targets.Add(_pid.EnsureId(delivery));
         }
@@ -1134,7 +1167,7 @@ public sealed partial class RumorsSystem : EntitySystem
             if (!_pid.TryResolveId(active.Targets[0], out var targetStation)) return rumor.Description;
             addon += $" while onboard {Name(targetStation)}";
         }
-        if(rumor.CompletionType == CompletionType.ReceiveMail)
+        if (rumor.CompletionType == CompletionType.ReceiveMail)
         {
             if (active.TargetStation == null) return rumor.Description;
             if (!_pid.TryResolveId(active.TargetStation, out var targetStation)) return rumor.Description;
@@ -1255,7 +1288,7 @@ public sealed partial class RumorsSystem : EntitySystem
 
             while (children.MoveNext(out var child))
             {
-                if(deleteComp != null)
+                if (deleteComp != null)
                 {
                     if (_mobStateQuery.TryGetComponent(child, out _))
                     {
@@ -1377,11 +1410,11 @@ public sealed partial class RumorsSystem : EntitySystem
             if (rumor.CompletionType == CompletionType.ReceiveMail)
             {
                 var valid = false;
-                if(rumor.Targets.Count > 0)
+                if (rumor.Targets.Count > 0)
                 {
                     if (!_pid.TryResolveId(rumor.Targets[0], out var ent))
                     {
-                        if(TryComp<DeliveryComponent>(ent, out var deliveryComp))
+                        if (TryComp<DeliveryComponent>(ent, out var deliveryComp))
                         {
                             _delivery.SetupDelivery((ent.Owner, deliveryComp), targetPlayer);
                             valid = true;

@@ -23,6 +23,7 @@
     # - GreenCodexFragment
     - GreenPlasmaCrate
     - GreenMerchCrate
+    - GreenRumorContract
   rewardsToOffer: 2
 
 
@@ -43,6 +44,9 @@
     - HyperzinePen
     - CombatToolbox
     - AdvancedTeleporterChip
+    - GreenHardsuitERTPaladin
+    - GreenHardsuitERTSecurity
+    - GreenHardsuitERTMedical
   rewardsToOffer: 2
 
 - type: metaFactionLevel
@@ -59,4 +63,7 @@
     - EDagger
     - ChameleonProjector
     - AdvancedTeleporterChip
+    - GreenHardsuitERTEngineer
+    - GreenHardsuitERTJanitor
+    - GreenHardsuitERTLeader
   rewardsToOffer: 2

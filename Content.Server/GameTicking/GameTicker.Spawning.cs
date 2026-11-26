@@ -31,6 +31,7 @@ using System.Globalization;
 using System.Linq;
 using System.Numerics;
 using Content.Shared.Humanoid; // Scav
+using Content.Server._Persistence14.CharacterSnapshot; // PS14
 
 
 namespace Content.Server.GameTicking
@@ -245,7 +246,8 @@ namespace Content.Server.GameTicking
             if (mobMaybe != null)
             {
                 EntityUid mobSure = (EntityUid)mobMaybe;
-                _loader.TrySaveGeneric(mobSure, saveFilePath, out var category);
+                if (_loader.TrySaveGeneric(mobSure, saveFilePath, out var category)) // PS14 - snapshot for lobby preview
+                    EntityManager.System<CharacterSnapshotSystem>().SaveSnapshot(mobSure, data.UserId, character.Name); // PS14
             }
             _chatSystem.DispatchStationAnnouncement(station.Value,
             $"{MetaData(mob).EntityName} has arrived into the Threshold.",
@@ -301,7 +303,7 @@ namespace Content.Server.GameTicking
                 }
             }
             var newMind = _mind.CreateMind(data!.UserId, character.Name);
-            _mind.SetUserId(newMind, data.UserId);
+            _mind.SetUserId(newMind.Owner, data.UserId, newMind.Comp);
             _mind.TransferTo(newMind, mob);
             _playerManager.SetAttachedEntity(player, mob, true);
 
@@ -386,18 +388,32 @@ namespace Content.Server.GameTicking
 
         private List<Entity<ContainerSpawnPointComponent, ContainerManagerComponent, TransformComponent>> FindContSpawn()
         {
-            var query = EntityQueryEnumerator<ContainerSpawnPointComponent, ContainerManagerComponent, TransformComponent>();
-            var possibleContainers = new List<Entity<ContainerSpawnPointComponent, ContainerManagerComponent, TransformComponent>>();
+            var query = EntityQueryEnumerator<
+                ContainerSpawnPointComponent,
+                ContainerManagerComponent,
+                TransformComponent>();
+
+            var possibleContainers = new List<
+                Entity<ContainerSpawnPointComponent, ContainerManagerComponent, TransformComponent>>();
 
             while (query.MoveNext(out var uid, out var spawnPoint, out var container, out var xform))
             {
-                if (spawnPoint.SpawnType != SpawnPointType.LateJoin) continue;
                 possibleContainers.Add((uid, spawnPoint, container, xform));
-
             }
+
+            // Prioritize LateJoin, then unset/default, then RoundJoin.
+            possibleContainers = possibleContainers
+                .OrderBy(x => x.Comp1.SpawnType switch
+                {
+                    SpawnPointType.LateJoin => 0,
+                    SpawnPointType.Unset => 1,
+                    SpawnPointType.Job => 2,
+                    _ => 3
+                })
+                .ToList();
+
             return possibleContainers;
         }
-
 
 
 

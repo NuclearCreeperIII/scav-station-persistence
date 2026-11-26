@@ -17,6 +17,15 @@
     sprite: _Persistence14/Clothing/Back/Duffels/exec.rsi
 
 - type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelNCC
+  name: nexus central council's duffel bag
+  description: Robust duffel bag, made to hold a plethora of items, including a *lot* of trade nodes.
+  components:
+  - type: Sprite
+    sprite: _Persistence14/Clothing/Back/Duffels/ncc.rsi
+
+- type: entity
   parent: [ClothingBackpackSatchel, BaseCommandContraband]
   id: ClothingBackpackSatchelExec
   name: executive's satchel
@@ -26,6 +35,15 @@
     sprite: _Persistence14/Clothing/Back/Satchels/exec.rsi
 
 - type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelNCC
+  name: nexus central council's satchel
+  description: A satchel with a modern yet regal design, tailored for the NCC.
+  components:
+  - type: Sprite
+    sprite: _Persistence14/Clothing/Back/Satchels/ncc.rsi
+
+- type: entity
   parent: [ClothingBackpackSatchel, BaseSyndicateContraband]
   id: ClothingBackpackSatchelSyndicate
   name: syndicate satchel
@@ -33,3 +51,57 @@
   components:
   - type: Sprite
     sprite: _Persistence14/Clothing/Back/Satchels/syndicate.rsi
+
+- type: entity
+  parent: ClothingBackpackERTChaplain
+  id: ClothingBackpackERTChaplainBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackERTSecurity
+  id: ClothingBackpackERTSecurityBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackERTMedical
+  id: ClothingBackpackERTMedicalBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackERTEngineer
+  id: ClothingBackpackERTEngineerBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackERTJanitor
+  id: ClothingBackpackERTJanitorBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag
+
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: ClothingBackpackERTLeaderBundle
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Backpack # ignore "WhitelistChameleon" tag

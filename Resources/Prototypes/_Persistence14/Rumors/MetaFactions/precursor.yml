@@ -22,6 +22,7 @@
     # - PrecursorCodexFragment
     - PrecursorPJs
     - PrecursorMerchCrate
+    - PrecursorRumorContract
   rewardsToOffer: 2
 
 - type: metaFactionLevel
@@ -37,9 +38,7 @@
     - HyperzinePen
     - SyndiCigarettes
     - PrecursorDecoy
-    - PrecursorSoapSyndie
     - PrecursorMagBoots
-    - PrecursorSyndieEva
     - Cobra
     - Hushpup
     - Hypopen
